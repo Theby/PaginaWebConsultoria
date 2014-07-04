@@ -7,7 +7,7 @@ Está página está desarrollada en:
 - Ruby: 2.1.2
 - Ruby on Rails: 4.1.1
 
-Se enncuentra bajo la GNU GENERAL PUBLIC LICENSE Version 2, así que es de libre distribución y modificación.
+Se encuentra bajo la GNU GENERAL PUBLIC LICENSE Version 2, así que es de libre distribución y modificación.
 
 
 Autor:
