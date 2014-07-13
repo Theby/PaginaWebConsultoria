@@ -1,5 +1,5 @@
 <section id="error" class="container">
-    <h1>404, Page not found</h1>
-    <p>The Page you are looking for doesn't exist or an other error occurred.</p>
-    <a class="btn btn-success" href="index.html">GO BACK TO THE HOMEPAGE</a>
+    <h1><%= t('fof.title') %></h1>
+    <p><%= t('fof.body') %></p>
+    <%= linkt to t('fof.go_back'), welcome_index_path, :class => "btn btn-success" %>
 </section><!--/#error-->
