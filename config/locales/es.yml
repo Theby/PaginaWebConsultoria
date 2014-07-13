@@ -21,8 +21,8 @@
 
 es:
   home:
-  	home: 'Inicio'
-    title: 'Titulo'
+    home: 'Inicio'
+    title: 'Título'
   date:
     abbr_day_names:
     - dom
