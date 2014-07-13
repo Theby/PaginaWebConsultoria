@@ -29,10 +29,6 @@ es:
     contratanos: 'Contrátanos'
     contactanos: 'Contáctanos'
     mapa_sitio: 'Mapa del Sitio'
-  fof:
-  	title: 'Error 404, Página no encontrada'
-  	body: 'La página buscada no existe o no se encuentra disponible en estos momentos.'
-  	go_back: 'Volver a la página principal'
   date:
     abbr_day_names:
     - dom
