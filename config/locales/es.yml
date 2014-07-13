@@ -20,9 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 es:
-  home:
+  banner:
     home: 'Inicio'
     title: 'Consultora'
+    funda_institu: 'Fundamentos Institucionales'
+    trayec_laboral: 'Trayectoria Laboral'
+    sobre_nosotros: 'Sobre Nosotros'
+    contratanos: 'Contrátanos'
+    contactanos: 'Contáctanos'
+    mapa_sitio: 'Mapa del Sitio'
   date:
     abbr_day_names:
     - dom

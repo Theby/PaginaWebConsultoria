@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title><%= t('home.home') %> | <%= t('home.title') %></title>
+    <title><%= t('banner.home') %> | <%= t('banner.title') %></title>
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="font-awesome.min.css.scss" rel="stylesheet">
     <link href="prettyPhoto.css.scss" rel="stylesheet">
@@ -32,13 +32,13 @@
                     <span class="icon-bar"></span>
                 </button>
                 <%= link_to image_tag('logo.png'), welcome_index_path, :class => 'navbar-brand' %>
-            </div>
+            </div> funda_institu
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><%= link_to t('home.home'), welcome_index_path %></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="active"><%= link_to t('banner.home'), welcome_index_path %></li>
+                    <li><a href="about-us.html"><%= t('banner.funda_institu') %></a></li>
+                    <li><a href="services.html"><%= t('banner.trayec_laboral') %></a></li>
+                    <li><a href="portfolio.html"><%= t('banner.sobre_nosotros') %></a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -210,7 +210,7 @@
                                             <div class="item-inner">
                                                 <%= image_tag("portfolio/recent/item2.png", :class => "img-responsive") %>
                                                 <h5>
-                                                    <%= t('home.title') %> - Business Theme
+                                                    <%= t('banner.title') %> - Business Theme
                                                 </h5>
                                                 <div class="overlay">
                                                     <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
@@ -227,7 +227,7 @@
                                             <div class="item-inner">
                                                 <%= image_tag("portfolio/recent/item2.png", :class => "img-responsive") %>
                                                 <h5>
-                                                    <%= t('home.title') %> - Business Theme
+                                                    <%= t('banner.title') %> - Business Theme
                                                 </h5>
                                                 <div class="overlay">
                                                     <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
@@ -310,7 +310,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <h4>About Us</h4>
+                    <h4><%= t('banner.funda_institu') %></h4>
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
                     <p>Pellentesque habitant morbi tristique senectus.</p>
                 </div><!--/.col-md-3-->
@@ -395,8 +395,8 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="pull-right">
-                        <li><a href="#"><%= t('home.home') %></a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="#"><%= t('banner.home') %></a></li>
+                        <li><a href="#"><%= t('banner.funda_institu') %></a></li>
                         <li><a href="#">Faq</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
