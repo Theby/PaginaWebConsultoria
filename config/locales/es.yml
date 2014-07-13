@@ -20,6 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 es:
+  home: 'Inicio'
+    title: 'Titulo'
   date:
     abbr_day_names:
     - dom
