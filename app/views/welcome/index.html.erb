@@ -32,13 +32,16 @@
                     <span class="icon-bar"></span>
                 </button>
                 <%= link_to image_tag('logo.png'), welcome_index_path, :class => 'navbar-brand' %>
-            </div> funda_institu
+            </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><%= link_to t('banner.home'), welcome_index_path %></li>
                     <li><a href="about-us.html"><%= t('banner.funda_institu') %></a></li>
                     <li><a href="services.html"><%= t('banner.trayec_laboral') %></a></li>
                     <li><a href="portfolio.html"><%= t('banner.sobre_nosotros') %></a></li>
+                    <li><a href="blog.html"><%= t('banner.contratanos') %></a></li> 
+                    <li><a href="contact-us.html"><%= t('banner.contactanos') %></a></li>
+                    <li><a href="contact-us.html"><%= t('banner.mapa_sitio') %></a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -52,8 +55,6 @@
                             <li><a href="terms.html">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -398,7 +399,7 @@
                         <li><a href="#"><%= t('banner.home') %></a></li>
                         <li><a href="#"><%= t('banner.funda_institu') %></a></li>
                         <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#"><%= t('banner.contactanos') %></a></li>
                         <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
                     </ul>
                 </div>
