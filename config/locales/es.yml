@@ -22,7 +22,7 @@
 es:
   home:
     home: 'Inicio'
-    title: 'Título'
+    title: 'Consultora'
   date:
     abbr_day_names:
     - dom
