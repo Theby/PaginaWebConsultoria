@@ -22,8 +22,7 @@ Rails.application.routes.draw do
 
 
   get 'fundamentos_institucionales/fundamentos_institucionales'
-  get 'fundamentos_institucionales/objetivos'
-
+  
 
   # Ruta al index de la página web
   get 'welcome/index'
