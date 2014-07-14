@@ -40,13 +40,14 @@
 	            </div>
 	            <div class="collapse navbar-collapse">
 	                <ul class="nav navbar-nav navbar-right">
-	                    <li class="active"><%= link_to t('banner.home'), welcome_index_path %></li>
-	                    <li><a href="about-us.html"><%= t('banner.funda_institu') %></a></li>
-	                    <li><a href="services.html"><%= t('banner.trayec_laboral') %></a></li>
-	                    <li><a href="portfolio.html"><%= t('banner.sobre_nosotros') %></a></li>
-	                    <li><a href="blog.html"><%= t('banner.contratanos') %></a></li> 
-	                    <li><a href="contact-us.html"><%= t('banner.contactanos') %></a></li>
-	                    <li><a href="contact-us.html"><%= t('banner.mapa_sitio') %></a></li>
+	                	<!-- class="active" -->
+	                    <li><%= link_to t('banner.home'), welcome_index_path %></li>
+	                    <li><%= link_to t('banner.funda_institu'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
+	                    <li><%= linkt_to t('banner.trayec_laboral'), trayectoria_laboral_trayectoria_laboral_path %></li>
+	                    <li><%= link_to t('banner.sobre_nosotros'), sobre_nosotros_sobre_nosotros_path %></li>
+	                    <li><%= link_to t('banner.contratanos'), contratanos_contratanos_path %></li> 
+	                    <li><%= link_to t('banner.contactanos'), contactanos_contactanos_path %></li>
+	                    <li><%= link_to t('banner.mapa_sitio'), welcome_mapa_del_sitio_path %></li>
 	                    <li class="dropdown">
 	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
 	                        <ul class="dropdown-menu">
