@@ -1,5 +1,15 @@
 Rails.application.routes.draw do 
 
+  get 'contactanos/contactanos'
+
+  get 'contratanos/contratanos'
+
+  get 'sobre_nosotros/sobre_nosotros'
+
+  get 'trayectoria_laboral/trayectoria_laboral'
+
+  get 'fundamentos_institucionales/fundamentos_institucionales'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
