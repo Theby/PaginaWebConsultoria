@@ -13,8 +13,8 @@ Rails.application.routes.draw do
 
   # Ruta al index de la página web
   get 'welcome/index'
-  get 'welcome/mapa_del_sitio
-  '
+  get 'welcome/mapa_del_sitio'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
