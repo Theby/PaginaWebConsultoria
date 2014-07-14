@@ -47,20 +47,6 @@
 	                    <li><%= link_to t('banner.sobre_nosotros'), sobre_nosotros_sobre_nosotros_path %></li>
 	                    <li><%= link_to t('banner.contratanos'), contratanos_contratanos_path %></li> 
 	                    <li><%= link_to t('banner.contactanos'), contactanos_contactanos_path %></li>
-	                    <li><%= link_to t('banner.mapa_sitio'), welcome_mapa_del_sitio_path %></li>
-	                    <li class="dropdown">
-	                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-	                        <ul class="dropdown-menu">
-	                            <li><a href="career.html">Career</a></li>
-	                            <li><a href="blog-item.html">Blog Single</a></li>
-	                            <li><a href="pricing.html">Pricing</a></li>
-	                            <li><a href="404.html">404</a></li>
-	                            <li><a href="registration.html">Registration</a></li>
-	                            <li class="divider"></li>
-	                            <li><a href="privacy.html">Privacy Policy</a></li>
-	                            <li><a href="terms.html">Terms of Use</a></li>
-	                        </ul>
-	                    </li>
 	                </ul>
 	            </div>
 	        </div>
@@ -166,7 +152,7 @@
 	                    <ul class="pull-right">
 	                        <li><a href="#"><%= t('banner.home') %></a></li>
 	                        <li><a href="#"><%= t('banner.funda_institu') %></a></li>
-	                        <li><a href="#">Faq</a></li>
+	                        <li><li><%= link_to t('banner.mapa_sitio'), welcome_mapa_del_sitio_path %></li></li>
 	                        <li><a href="#"><%= t('banner.contactanos') %></a></li>
 	                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
 	                    </ul>
