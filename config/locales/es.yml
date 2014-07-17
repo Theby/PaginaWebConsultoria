@@ -34,7 +34,17 @@ es:
     sub_title: 'Todo lo que necesitas saber sobre nuestra consultora. Nuestra razón de ser.'
     objetivos:
       title: 'Objetivos'
-      descripcion: 'Entregar resultados confiables ajustados a requerimientos. Mantener una estrecha comunicación con nuestros clientes. Realizar todas las acciones que trasmitan nuestra ocupación en resolver la problemática de nuestros clientes. Incorporar permanentemente a nuestro background las innovaciones y desarrollos tecnológicos.'
+      sub_title: '¿Por que deseamos hacer esto?'
+      descripcion_1: 'Entregar resultados confiables ajustados a requerimientos. Mantener una estrecha comunicación con nuestros clientes. Realizar todas las acciones que trasmitan nuestra ocupación en resolver la problemática de nuestros clientes. Incorporar permanentemente a nuestro background las innovaciones y desarrollos tecnológicos.'
+    mision:
+      title: 'Misión'
+      sub_title: 'Que es lo que deseamos lograr'
+      descripcion: 'Deseamos ser un partner de nuestros clientes, y que sientan la confianza en nuestros conocimiento y experiencia, la que les ayude a resolver los problemas a los cuales se ven enfrentados en su quehacer operacional, entregándoles la mejor solución y/o recomendaciones.'
+      elemento_1:
+        title: 'Ser partner'
+        descripcion: 'Ser un amigo fiel ~'
+    vision:
+    valores:
   date:
     abbr_day_names:
     - dom
