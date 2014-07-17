@@ -29,6 +29,12 @@ es:
     contratanos: 'Contrátanos'
     contactanos: 'Contáctanos'
     mapa_sitio: 'Mapa del Sitio'
+  funda_institu:
+    title: 'Fundamentos Institucionales'
+    sub_title: 'Todo lo que necesitas saber sobre nuestra consultora. Nuestra razón de ser.'
+    objetivos:
+      title: 'Objetivos'
+      descripcion: 'Entregar resultados confiables ajustados a requerimientos. Mantener una estrecha comunicación con nuestros clientes. Realizar todas las acciones que trasmitan nuestra ocupación en resolver la problemática de nuestros clientes. Incorporar permanentemente a nuestro background las innovaciones y desarrollos tecnológicos.'
   date:
     abbr_day_names:
     - dom
