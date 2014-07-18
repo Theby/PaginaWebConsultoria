@@ -76,6 +76,46 @@ es:
         nombre: 'Fernando Salas Martínez'
         cargo: 'Dueño'
         resumen: 'Ingeniero Civil Electricista, Licenciado en Ingeniería, Analista de Sistemas, Diplomado en Administración de Empresas.'
+    contratanos:
+      title: 'Contrátanos'
+      sub_title: 'Llámanos y pide nuestros servicios'
+      descripcion:
+      datos_contacto:
+        celular_1: '+569 8 28 92 790'
+        celular_2: '+569 9 97 90 546'
+        direccion_1:
+        direccion_2:
+      servicios:
+        title:
+        sub_title:
+        descripcion:
+        servicio_1:
+          title: 'Asesoría en Desarrollo de Proyectos de Ingeniería en Telecomunicaciones'
+          descripcion:
+        servicio_2:
+          title: 'Redes de datos'
+          descripcion:
+        servicio_3:
+          title: 'Redes de Radioenlaces MM.OO'
+          descripcion:
+        servicio_4:
+          title: 'Gestión Estratégica'
+          descripcion:
+        servicio_5:
+          title: 'Diagnóstico Organizacional'
+          descripcion:
+        servicio_6:
+          title: 'Gestión de la Calidad'
+          descripcion:
+        servicio_7:
+          title: 'Preparación para la Certificación ISO 9001'
+          descripcion:
+        servicio_8:
+          title: 'Respaldo de energía en sistemas de telecomunicaciones'
+          descripcion:
+        servicio_9:
+          title: 'Energías Renovables No Convencionales'
+          descripcion:
   date:
     abbr_day_names:
     - dom
