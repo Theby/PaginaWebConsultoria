@@ -42,21 +42,21 @@ es:
       descripcion: 'Deseamos ser un partner de nuestros clientes, y que sientan la confianza en nuestros conocimiento y experiencia, la que les ayude a resolver los problemas a los cuales se ven enfrentados en su quehacer operacional, entregándoles la mejor solución y/o recomendaciones.'
       elemento_1:
         title: 'Test uno'
-        descripcion: 'Descripcion test uno'
+        descripcion: 'Descripcion test uno.'
     vision:
       title: 'Visión'
       sub_title: 'Nuestra forma de ver las cosas'
-      descripcion: 
+      descripcion: 'Posicionarnos como una Consultora de excelencia en materias estratégicas y tecnológicas.'
       elemento_1:
-        title:
-        descripcion:
+        title: 'Test uno'
+        descripcion: 'Descripcion test uno.'
     valores:
-      title:
-      sub_title:
-      descripcion: 
+      title: 'Valores'
+      sub_title: 'Lo que más valoramos'
+      descripcion: 'Honestidad y transparencia en el desarrollo de las consultorías. Probidad en las acciones y compromisos. Lealtad y confidencialidad para nuestros clientes.'
       elemento_1:
-        title:
-        descripcion:
+        title: 'Test uno'
+        descripcion: 'Descripcion test uno.'
   date:
     abbr_day_names:
     - dom
