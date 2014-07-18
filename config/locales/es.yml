@@ -41,10 +41,22 @@ es:
       sub_title: 'Que es lo que deseamos lograr'
       descripcion: 'Deseamos ser un partner de nuestros clientes, y que sientan la confianza en nuestros conocimiento y experiencia, la que les ayude a resolver los problemas a los cuales se ven enfrentados en su quehacer operacional, entregándoles la mejor solución y/o recomendaciones.'
       elemento_1:
-        title: 'Ser partner'
-        descripcion: 'Ser un amigo fiel ~'
+        title: 'Test uno'
+        descripcion: 'Descripcion test uno'
     vision:
+      title: 'Visión'
+      sub_title: 'Nuestra forma de ver las cosas'
+      descripcion: 
+      elemento_1:
+        title:
+        descripcion:
     valores:
+      title:
+      sub_title:
+      descripcion: 
+      elemento_1:
+        title:
+        descripcion:
   date:
     abbr_day_names:
     - dom
