@@ -81,13 +81,19 @@ es:
     sub_title: 'Llámanos y pide nuestros servicios'
     descripcion:
     datos_contacto:
+      title: 'Datos de contácto'
+      sub_title: 'Todo lo que necesitas saber para contrátar nuestros servicios'
+      descripcion: 
+      celular: 'Celular: '
       celular_1: '+569 8 28 92 790'
       celular_2: '+569 9 97 90 546'
       direccion_1:
       direccion_2:
+      descripcion_1:
+      descripcion_2:
     servicios:
-      title:
-      sub_title:
+      title: 'Servicios'
+      sub_title: 'Todos los servicios que podemos ofrecer'
       descripcion:
       servicio_1:
         title: 'Asesoría en Desarrollo de Proyectos de Ingeniería en Telecomunicaciones'
