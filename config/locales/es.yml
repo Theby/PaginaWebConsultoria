@@ -122,6 +122,17 @@ es:
       servicio_9:
         title: 'Energías Renovables No Convencionales'
         descripcion:
+  contactanos:
+    title: 'Contáctanos'
+    sub_title: 'Envianos un mensaje con tus opiníones'
+    descripcion:
+    form:
+      title: ''
+      nombre_placeholder:
+      apellido_placeholder:
+      email_placeholder:
+      mensaje_placeholder:
+      boton_enviar:
   date:
     abbr_day_names:
     - dom
