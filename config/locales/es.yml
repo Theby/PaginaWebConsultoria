@@ -91,6 +91,8 @@ es:
       direccion_2:
       descripcion_1:
       descripcion_2:
+    ubicacion:
+      title: 'Ubicación'
     servicios:
       title: 'Servicios'
       sub_title: 'Todos los servicios que podemos ofrecer'
