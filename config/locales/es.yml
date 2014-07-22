@@ -26,7 +26,8 @@ es:
     funda_institu: 'Fundamentos Institucionales'
     trayec_laboral: 'Trayectoria Laboral'
     sobre_nosotros: 'Sobre Nosotros'
-    contratanos: 'Contrátanos'
+    contratanos:
+      title: 'Contrátanos'
       datos_contacto: 'Datos de Contáctanos'
       servicios: 'Servicios'
     contactanos: 'Contáctanos'
