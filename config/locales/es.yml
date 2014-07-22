@@ -127,12 +127,12 @@ es:
     sub_title: 'Envianos un mensaje con tus opiníones'
     descripcion:
     form:
-      title: ''
-      nombre_placeholder:
-      apellido_placeholder:
-      email_placeholder:
-      mensaje_placeholder:
-      boton_enviar:
+      title: 'Formulario de contacto'
+      nombre_placeholder: 'Nombre'
+      apellido_placeholder: 'Apellidos'
+      email_placeholder: 'Correo electronico'
+      mensaje_placeholder: 'Mensaje'
+      boton_enviar: 'Enviar Mensaje'
   date:
     abbr_day_names:
     - dom
