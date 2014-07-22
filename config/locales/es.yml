@@ -27,6 +27,8 @@ es:
     trayec_laboral: 'Trayectoria Laboral'
     sobre_nosotros: 'Sobre Nosotros'
     contratanos: 'Contrátanos'
+      datos_contacto: 'Datos de Contáctanos'
+      servicios: 'Servicios'
     contactanos: 'Contáctanos'
     mapa_sitio: 'Mapa del Sitio'
   funda_institu:
