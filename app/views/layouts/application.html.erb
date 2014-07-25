@@ -24,6 +24,8 @@
 	<body>
 		<header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
 	        <div class="container">
+
+	        	
 	            <div class="navbar-header">
 	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 	                    <span class="sr-only">Toggle navigation</span>
@@ -46,7 +48,7 @@
 
 	                    <li>
 	                        <%= link_to t('banner.contratanos.title'), contratanos_contratanos_path %>
-	                        <ul>
+	                        <ul class="dropdown-menu">
 	                        	<li><%= link_to t('banner.contratanos.title'), contratanos_contratanos_path %></li>
 	                            <li><%= link_to t('banner.contratanos.datos_contacto'), contratanos_contratanos_path(anchor: "datos_contacto") %></li>
 	                            <li><%= link_to t('banner.contratanos.servicios'), contratanos_contratanos_path(anchor: "servicios") %></li>
