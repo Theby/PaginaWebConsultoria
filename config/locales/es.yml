@@ -60,6 +60,34 @@ es:
       sub_title: 'Lo que más valoramos'
       descripcion_1: 'Honestidad y transparencia en el desarrollo de las consultorías. Probidad en las acciones y compromisos. Lealtad y confidencialidad para nuestros clientes.'
   trayectoria_laboral:
+    title: 'Trayectoria Laboral'
+    sub_title: 'Áreas y proyectos en los que hemos participado'
+    area_1:
+      title: 'Electrónica'
+    area_2:
+      title: 'Radiodifusión'
+    area_3:
+      title: 'Telecomunicaciones'
+    area_4:
+      title: 'Computación'
+    area_5:
+      title: 'Radiocomunicación'
+    area_6:
+      title: 'Co-localización'
+    area_7:
+      title: 'Real Estate'
+    area_8:
+      title: 'Site Survey'
+    area_9:
+      title: 'Monitoreo Satelital'
+    area_10:
+      title: 'Gestión Estratégica'
+    area_11:
+      title: 'Gestión de la Calidad'
+    area_12:
+      title: 'Evaluación y Gestión de Proyectos'
+    area_13:
+      title: 'Energías Renovables y no Convencionales'
   sobre_nosotros:
     title: 'Sobre Nosotros'
     sub_title: 'Nuestra historia y nuestros miembros'

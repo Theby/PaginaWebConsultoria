@@ -2,13 +2,13 @@
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-sm-6">
-		                <h1>Portfolio</h1>
-		                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+		                <h1><%= t('trayectoria_laboral.title') %></h1>
+		                <p><%= t('trayectoria_laboral.sub_title') %></p>
 		            </div>
 		            <div class="col-sm-6">
 		                <ul class="breadcrumb pull-right">
-		                    <li><a href="index.html">Home</a></li>
-		                    <li class="active">Portfolio</li>
+		                    <li><%= link_to t('banner.home'), welcome_index_path %></li>
+		                    <li class="active"><%= t('trayectoria_laboral.title') %></li>
 		                </ul>
 		            </div>
 		        </div>
@@ -18,10 +18,19 @@
 		<section id="portfolio" class="gris">
 			<div class="container">
 			    <ul class="portfolio-filter">
-			        <li><a class="btn btn-default active" href="#">All</a></li>
-			        <li><a class="btn btn-default" href="#">Bootstrap</a></li>
-			        <li><a class="btn btn-default" href="#">HTML</a></li>
-			        <li><a class="btn btn-default" href="#">Wordpress</a></li>
+			        <li><a class="btn btn-default active" href="#"><%= t('trayectoria_laboral.area_1.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_2.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_3.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_4.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_5.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_6.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_7.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_8.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_9.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_10.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_11.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_12.title') %></a></li>
+			        <li><a class="btn btn-default" href="#"><%= t('trayectoria_laboral.area_13.title') %></a></li>
 			    </ul><!--/#portfolio-filter-->
 			</div>
 		</section><!--/#portfolio-->
