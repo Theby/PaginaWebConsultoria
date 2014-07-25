@@ -23,9 +23,17 @@ es:
   banner:
     home: 'Inicio'
     title: 'Consultora'
-    funda_institu: 'Fundamentos Institucionales'
+    funda_institu:
+      title: 'Fundamentos Institucionales'
+      objetivos: 'Objetivos'
+      mision: 'Misión'
+      vision: 'Visión'
+      valores: 'Valores'
     trayec_laboral: 'Trayectoria Laboral'
-    sobre_nosotros: 'Sobre Nosotros'
+    sobre_nosotros:
+      title: 'Sobre Nosotros'
+      historia: 'Historia'
+      miembros: 'Miembros'
     contratanos:
       title: 'Contrátanos'
       datos_contacto: 'Datos de Contáctanos'
