@@ -50,24 +50,15 @@ es:
     mision:
       title: 'Misión'
       sub_title: 'Que es lo que deseamos lograr'
-      descripcion: 'Deseamos ser un partner de nuestros clientes, y que sientan la confianza en nuestros conocimiento y experiencia, la que les ayude a resolver los problemas a los cuales se ven enfrentados en su quehacer operacional, entregándoles la mejor solución y/o recomendaciones.'
-      elemento_1:
-        title: 'Test uno'
-        descripcion: 'Descripcion test uno.'
+      descripcion_1: 'Deseamos ser un partner de nuestros clientes, y que sientan la confianza en nuestros conocimiento y experiencia, la que les ayude a resolver los problemas a los cuales se ven enfrentados en su quehacer operacional, entregándoles la mejor solución y/o recomendaciones.'
     vision:
       title: 'Visión'
       sub_title: 'Nuestra forma de ver las cosas'
-      descripcion: 'Posicionarnos como una Consultora de excelencia en materias estratégicas y tecnológicas.'
-      elemento_1:
-        title: 'Test uno'
-        descripcion: 'Descripcion test uno.'
+      descripcion_1: 'Posicionarnos como una Consultora de excelencia en materias estratégicas y tecnológicas.'
     valores:
       title: 'Valores'
       sub_title: 'Lo que más valoramos'
-      descripcion: 'Honestidad y transparencia en el desarrollo de las consultorías. Probidad en las acciones y compromisos. Lealtad y confidencialidad para nuestros clientes.'
-      elemento_1:
-        title: 'Test uno'
-        descripcion: 'Descripcion test uno.'
+      descripcion_1: 'Honestidad y transparencia en el desarrollo de las consultorías. Probidad en las acciones y compromisos. Lealtad y confidencialidad para nuestros clientes.'
   trayectoria_laboral:
   sobre_nosotros:
     title: 'Sobre Nosotros'

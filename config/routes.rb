@@ -21,7 +21,11 @@ Rails.application.routes.draw do
   get 'trayectoria_laboral/trayectoria_laboral'
 
 
-  get 'fundamentos_institucionales/fundamentos_institucionales'
+  # Rutas a los fundamentos institucionales
+  get 'fundamentos_institucionales/fundamentos_institucionales' #tiene los objetivos
+  get 'fundamentos_institucionales/mision'
+  get 'fundamentos_institucionales/vision'
+  get 'fundamentos_institucionales/valores'
   
 
   # Ruta al index de la página web

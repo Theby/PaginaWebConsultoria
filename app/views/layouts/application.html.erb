@@ -38,9 +38,9 @@
 	                        <ul class="dropdown-menu">
 	                        	<li><%= link_to t('banner.funda_institu.title'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
 	                            <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "objetivos") %></li>
-	                            <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "mision") %></li>
-	                            <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "vision") %></li>
-	                            <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "valores") %></li>
+	                            <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_mision_path %></li>
+	                            <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_vision_path %></li>
+	                            <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_valores_path %></li>
 	                        </ul>
 	                    </li>
 
@@ -79,7 +79,7 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-md-3 col-sm-6">
-	                    <h4><%= t('banner.funda_institu') %></h4>
+	                    <h4><%= t('banner.funda_institu.title') %></h4>
 	                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
 	                    <p>Pellentesque habitant morbi tristique senectus.</p>
 	                </div><!--/.col-md-3-->
@@ -127,7 +127,7 @@
 	                <div class="col-sm-6">
 	                    <ul class="pull-right">
 	                        <li><a href="#"><%= t('banner.home') %></a></li>
-	                        <li><a href="#"><%= t('banner.funda_institu') %></a></li>
+	                        <li><a href="#"><%= t('banner.funda_institu.title') %></a></li>
 	                        <li><li><%= link_to t('banner.mapa_sitio'), welcome_mapa_del_sitio_path %></li></li>
 	                        <li><a href="#"><%= t('banner.contactanos') %></a></li>
 	                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
