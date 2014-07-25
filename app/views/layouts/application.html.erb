@@ -35,9 +35,35 @@
 	            <div class="collapse navbar-collapse">
 	                <ul class="sf-menu nav navbar-nav navbar-right">
 	                    <li><%= link_to t('banner.home'), welcome_index_path %></li>
-	                    <li><%= link_to t('banner.funda_institu'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
+
+	                    <li>
+	                        <%= link_to t('banner.funda_institu.title'), fundamentos_institucionales_fundamentos_institucionales_path %>
+	                        <ul class="dropdown-menu">
+	                        	<li><%= link_to t('banner.funda_institu.title'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
+	                            <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "objetivos") %></li>
+	                            <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "mision") %></li>
+	                            <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "vision") %></li>
+	                            <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "valores") %></li>
+	                        </ul>
+	                    </li>
+
 	                    <li><%= link_to t('banner.trayec_laboral'), trayectoria_laboral_trayectoria_laboral_path %></li>
-	                    <li><%= link_to t('banner.sobre_nosotros'), sobre_nosotros_sobre_nosotros_path %></li>
+
+
+	                    <li>
+	                        <%= link_to t('banner.sobre_nosotros.title'), sobre_nosotros_sobre_nosotros_path %>
+	                        <ul class="dropdown-menu">
+	                        	<li><%= link_to t('banner.sobre_nosotros.title'), sobre_nosotros_sobre_nosotros_path %></li>
+	                            <li><%= link_to t('banner.sobre_nosotros.historia'), sobre_nosotros_sobre_nosotros_path(anchor: "historia") %></li>
+	                            <li>
+	                            	<%= link_to t('banner.sobre_nosotros.miembros.title'), sobre_nosotros_sobre_nosotros_path(anchor: "miembros") %>
+	                            	<ul class="dropdown-menu">	                            		
+	                            		<li><%= link_to t('banner.sobre_nosotros.miembros.charles'), sobre_nosotros_sobre_nosotros_path(anchor: "charles") %></li>
+	                            		<li><%= link_to t('banner.sobre_nosotros.miembros.fernando'), sobre_nosotros_sobre_nosotros_path(anchor: "fernando") %></li>
+	                            	</ul>
+	                            </li>
+	                        </ul>
+	                    </li>
 
 	                    <li>
 	                        <%= link_to t('banner.contratanos.title'), contratanos_contratanos_path %>
