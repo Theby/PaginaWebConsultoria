@@ -10,8 +10,9 @@ Rails.application.routes.draw do
   get 'contratanos/contratanos'
 
 
-  # Ruta a la vista sobre nosotros
+  # Rutas a las vistas sobre nosotros
   get 'sobre_nosotros/sobre_nosotros'
+  get 'sobre_nosotros/miembros'
   # Ruta al perfil de Charles Montefusco
   get 'sobre_nosotros/charlesmontefusco'
   # Ruta al perfil de Fernando Salas 

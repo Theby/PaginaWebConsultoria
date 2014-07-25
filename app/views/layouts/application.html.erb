@@ -36,8 +36,7 @@
 	                    <li>
 	                        <%= link_to t('banner.funda_institu.title'), fundamentos_institucionales_fundamentos_institucionales_path %>
 	                        <ul class="dropdown-menu">
-	                        	<li><%= link_to t('banner.funda_institu.title'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
-	                            <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path(anchor: "objetivos") %></li>
+	                            <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
 	                            <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_mision_path %></li>
 	                            <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_vision_path %></li>
 	                            <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_valores_path %></li>
@@ -49,17 +48,15 @@
 	                    <li>
 	                        <%= link_to t('banner.sobre_nosotros.title'), sobre_nosotros_sobre_nosotros_path %>
 	                        <ul class="dropdown-menu">
-	                        	<li><%= link_to t('banner.sobre_nosotros.title'), sobre_nosotros_sobre_nosotros_path %></li>
-	                            <li><%= link_to t('banner.sobre_nosotros.historia'), sobre_nosotros_sobre_nosotros_path(anchor: "historia") %></li>
-	                            <li><%= link_to t('banner.sobre_nosotros.miembros'), sobre_nosotros_sobre_nosotros_path(anchor: "miembros") %></li>
+	                            <li><%= link_to t('banner.sobre_nosotros.historia'), sobre_nosotros_sobre_nosotros_path %></li>
+	                            <li><%= link_to t('banner.sobre_nosotros.miembros'), sobre_nosotros_miembros_path %></li>
 	                        </ul>
 	                    </li>
 
 	                    <li>
 	                        <%= link_to t('banner.contratanos.title'), contratanos_contratanos_path %>
 	                        <ul class="dropdown-menu">
-	                        	<li><%= link_to t('banner.contratanos.title'), contratanos_contratanos_path %></li>
-	                            <li><%= link_to t('banner.contratanos.datos_contacto'), contratanos_contratanos_path(anchor: "datos_contacto") %></li>
+	                            <li><%= link_to t('banner.contratanos.datos_contacto'), contratanos_contratanos_path %></li>
 	                            <li><%= link_to t('banner.contratanos.servicios'), contratanos_contratanos_path(anchor: "servicios") %></li>
 	                        </ul>
 	                    </li>
@@ -74,49 +71,6 @@
 
 		<%= yield %>
 
-
-		<section id="bottom" class="wet-asphalt">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-md-3 col-sm-6">
-	                    <h4><%= t('banner.funda_institu.title') %></h4>
-	                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-	                    <p>Pellentesque habitant morbi tristique senectus.</p>
-	                </div><!--/.col-md-3-->
-
-	                <div class="col-md-3 col-sm-6">
-	                    <h4>Company</h4>
-	                    <div>
-	                        <ul class="arrow">
-	                            <li><a href="#">Company Overview</a></li>
-	                            <li><a href="#">Meet The Team</a></li>
-	                            <li><a href="#">Our Awesome Partners</a></li>
-	                            <li><a href="#">Our Services</a></li>
-	                            <li><a href="#">Frequently Asked Questions</a></li>
-	                            <li><a href="#">Conatct Us</a></li>
-	                            <li><a href="#">Privacy Policy</a></li>
-	                            <li><a href="#">Terms of Use</a></li>
-	                            <li><a href="#">Copyright</a></li>
-	                        </ul>
-	                    </div>
-	                </div><!--/.col-md-3-->
-
-
-	                <div class="col-md-3 col-sm-6">
-	                </div><!--/.col-md-3-->
-
-	                <div class="col-md-3 col-sm-6">
-	                    <h4>Address</h4>
-	                    <address>
-	                        <strong>Twitter, Inc.</strong><br>
-	                        795 Folsom Ave, Suite 600<br>
-	                        San Francisco, CA 94107<br>
-	                        <abbr title="Phone">P:</abbr> (123) 456-7890
-	                    </address>
-	                </div> <!--/.col-md-3-->
-	            </div>
-	        </div>
-	    </section><!--/#bottom-->
 
 	    <footer id="footer" class="midnight-blue">
 	        <div class="container">
