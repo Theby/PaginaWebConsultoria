@@ -32,8 +32,8 @@
 
 
 
-	            <div class="collapse navbar-collapse">
-	                <ul class="sf-menu nav navbar-nav navbar-right">
+	            <div>
+	                <ul class="sf-menu">
 	                	<!-- class="active" -->
 	                    <li><%= link_to t('banner.home'), welcome_index_path %></li>
 	                    <li><%= link_to t('banner.funda_institu'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
@@ -42,7 +42,7 @@
 
 	                    <li>
 	                        <%= link_to t('banner.contratanos.title'), contratanos_contratanos_path %>
-	                        <ul class="dropdown-menus-sf">
+	                        <ul>
 	                        	<li><%= link_to t('banner.contratanos.title'), contratanos_contratanos_path %></li>
 	                            <li><%= link_to t('banner.contratanos.datos_contacto'), contratanos_contratanos_path(anchor: "datos_contacto") %></li>
 	                            <li><%= link_to t('banner.contratanos.servicios'), contratanos_contratanos_path(anchor: "servicios") %></li>
