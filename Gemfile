@@ -43,3 +43,5 @@ gem 'rails_12factor', group: :production
 
 # Para que heroku sepa que version de ruby se usa
 ruby "2.1.2"
+
+gem 'superfish-rails'
