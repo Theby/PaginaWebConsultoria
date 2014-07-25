@@ -1,2 +1,2 @@
 jQuery ->
-  $('ul.nav').superfish()
+  $('ul.sf-menu').superfish()
