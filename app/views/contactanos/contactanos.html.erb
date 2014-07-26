@@ -21,6 +21,23 @@
 				    <div class="col-sm-8">
 				        <h4><%=  t('contactanos.form.title') %></h4>
 				        <div class="status alert alert-success" style="display: none"></div>
+				        <form 
+				          action="mailto:zoraskiller@gmail.com"
+				          method="POST"
+				          enctype="multipart/form-data"
+				          name="EmailTestForm">
+
+				        Your Name:<br>
+				        <input type="text" size="20" name="VisitorName"><br><br>
+
+				        Your Comment:<br>
+				        <textarea name="VisitorComment" rows="4" cols="20">
+				        </textarea><br><br>
+
+				        <input type="submit" value="Email This Form">
+
+				        </form>
+				        <!--
 				        <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php" role="form">
 				            <div class="row">
 				                <div class="col-sm-5">
@@ -42,6 +59,7 @@
 				                </div>
 				            </div>
 				        </form>
+				    	-->
 				    </div><!--/.col-sm-8-->
 				</div>
 			</div>		    
