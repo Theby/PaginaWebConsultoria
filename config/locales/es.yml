@@ -29,7 +29,10 @@ es:
       mision: 'Misión'
       vision: 'Visión'
       valores: 'Valores'
-    trayec_laboral: 'Trayectoria Laboral'
+    trayec_laboral:
+      title: 'Trayectoria Laboral'
+      sector_publico: 'Sector Público'
+      sector_privado: 'Sector Privado'
     sobre_nosotros:
       title: 'Sobre Nosotros'
       historia: 'Historia'
