@@ -9,7 +9,7 @@
 		                <ul class="breadcrumb pull-right">
 		                    <li><%= link_to t('banner.home'), welcome_index_path %></li>
 		                    <li class="active"><%= t('trayectoria_laboral.title') %></li>
-		                    <li class="active"><%= t('trayectoria_laboral.area_1.title') %></li>
+		                    <li class="active"><%= t('trayectoria_laboral.area_10.title') %></li>
 		                </ul>
 		            </div>
 		        </div>
@@ -19,7 +19,7 @@
 		<section id="portfolio" class="gris">
 			<div class="container">
 			    <ul class="portfolio-filter">
-			        <li><%= link_to t('trayectoria_laboral.area_1.title'), trayectoria_laboral_trayectoria_laboral_path, :class => "btn btn-default" %></li>
+			    	<li><%= link_to t('trayectoria_laboral.area_1.title'), trayectoria_laboral_trayectoria_laboral_path, :class => "btn btn-default" %></li>
 			        <li><%= link_to t('trayectoria_laboral.area_2.title'), trayectoria_laboral_area_2_path, :class => "btn btn-default" %></li>
 			        <li><%= link_to t('trayectoria_laboral.area_3.title'), trayectoria_laboral_area_3_path, :class => "btn btn-default" %></li>
 			        <li><%= link_to t('trayectoria_laboral.area_4.title'), trayectoria_laboral_area_4_path, :class => "btn btn-default" %></li>
@@ -28,7 +28,7 @@
 			        <li><%= link_to t('trayectoria_laboral.area_7.title'), trayectoria_laboral_area_7_path, :class => "btn btn-default" %></li>
 			        <li><%= link_to t('trayectoria_laboral.area_8.title'), trayectoria_laboral_area_8_path, :class => "btn btn-default" %></li>
 			        <li><%= link_to t('trayectoria_laboral.area_9.title'), trayectoria_laboral_area_9_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_10.title'), trayectoria_laboral_area_10_path, :class => "btn btn-default" %></li>
+			        <li><%= link_to t('trayectoria_laboral.area_10.title'), trayectoria_laboral_area_10_path, :class => "btn btn-default active" %></li>
 			        <li><%= link_to t('trayectoria_laboral.area_11.title'), trayectoria_laboral_area_11_path, :class => "btn btn-default" %></li>
 			        <li><%= link_to t('trayectoria_laboral.area_12.title'), trayectoria_laboral_area_12_path, :class => "btn btn-default" %></li>
 			        <li><%= link_to t('trayectoria_laboral.area_13.title'), trayectoria_laboral_area_13_path, :class => "btn btn-default" %></li>
@@ -36,22 +36,21 @@
 
 			    <hr>
 
-			   	<div class="row">
-	                <div class="col-sm-6">
-	                    <h1><%= t('trayectoria_laboral.area_1.title') %></h1>
-	                    <p><%= t('trayectoria_laboral.area_1.descripcion') %></p>
-	                </div>
-	                <div class="col-sm-6">
-	                    <h2><%= t('trayectoria_laboral.proyectos') %></h2>
-	                    <div>
-	                        <div class="progress">
-	                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-	                                <span><%= t('trayectoria_laboral.area_1.proyecto_1.title') %></span>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-
+    		   	<div class="row">
+                    <div class="col-sm-6">
+                        <h1><%= t('trayectoria_laboral.area_10.title') %></h1>
+                        <p><%= t('trayectoria_laboral.area_10.descripcion') %></p>
+                    </div>
+                    <div class="col-sm-6">
+                        <h2><%= t('trayectoria_laboral.proyectos') %></h2>
+                        <div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span><%= t('trayectoria_laboral.area_10.proyecto_1.title') %></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 		</section><!--/#portfolio-->

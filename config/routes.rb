@@ -17,10 +17,22 @@ Rails.application.routes.draw do
   get 'sobre_nosotros/charlesmontefusco'
   # Ruta al perfil de Fernando Salas 
   get 'sobre_nosotros/fernandosalas'
+  
 
-
+  # Rutas a las vistas de trayectoria laboral
   get 'trayectoria_laboral/trayectoria_laboral'
   get 'trayectoria_laboral/area_2'
+  get 'trayectoria_laboral/area_3'
+  get 'trayectoria_laboral/area_4'
+  get 'trayectoria_laboral/area_5'
+  get 'trayectoria_laboral/area_6'
+  get 'trayectoria_laboral/area_7'
+  get 'trayectoria_laboral/area_8'
+  get 'trayectoria_laboral/area_9'
+  get 'trayectoria_laboral/area_10'
+  get 'trayectoria_laboral/area_11'
+  get 'trayectoria_laboral/area_12'
+  get 'trayectoria_laboral/area_13'
 
 
   # Rutas a los fundamentos institucionales

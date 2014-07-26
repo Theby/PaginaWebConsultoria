@@ -62,6 +62,7 @@ es:
   trayectoria_laboral:
     title: 'Trayectoria Laboral'
     sub_title: 'Áreas y proyectos en los que hemos participado'
+    proyectos: 'Proyectos'
     area_1:
       title: 'Electrónica'
       descripcion:
@@ -76,26 +77,70 @@ es:
         descripcion:
     area_3:
       title: 'Telecomunicaciones'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_4:
       title: 'Computación'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_5:
       title: 'Radiocomunicación'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_6:
       title: 'Co-localización'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_7:
       title: 'Real Estate'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_8:
       title: 'Site Survey'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_9:
       title: 'Monitoreo Satelital'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_10:
       title: 'Gestión Estratégica'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_11:
       title: 'Gestión de la Calidad'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_12:
       title: 'Evaluación y Gestión de Proyectos'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_13:
       title: 'Energías Renovables y no Convencionales'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
   sobre_nosotros:
     title: 'Sobre Nosotros'
     sub_title: 'Nuestra historia y nuestros miembros'
