@@ -37,4 +37,7 @@ class TrayectoriaLaboralController < ApplicationController
 
   def area_13
   end
+
+  def sector_publico
+  end
 end
