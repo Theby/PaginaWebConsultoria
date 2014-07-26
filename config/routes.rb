@@ -21,6 +21,7 @@ Rails.application.routes.draw do
 
   # Rutas a las vistas de trayectoria laboral
   get 'trayectoria_laboral/trayectoria_laboral'
+  get 'trayectoria_laboral/sector_publico'
   get 'trayectoria_laboral/area_2'
   get 'trayectoria_laboral/area_3'
   get 'trayectoria_laboral/area_4'
