@@ -7,4 +7,7 @@ class SobreNosotrosController < ApplicationController
 
   def fernandosalas
   end
+
+  def miembros
+  end
 end
