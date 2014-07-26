@@ -20,6 +20,7 @@ Rails.application.routes.draw do
 
 
   get 'trayectoria_laboral/trayectoria_laboral'
+  get 'trayectoria_laboral/area_2'
 
 
   # Rutas a los fundamentos institucionales

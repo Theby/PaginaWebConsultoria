@@ -64,8 +64,16 @@ es:
     sub_title: 'Áreas y proyectos en los que hemos participado'
     area_1:
       title: 'Electrónica'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_2:
       title: 'Radiodifusión'
+      descripcion:
+      proyecto_1:
+        title:
+        descripcion:
     area_3:
       title: 'Telecomunicaciones'
     area_4:
