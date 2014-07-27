@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   helper_method :es_trayectoria_laboral
+  helper_method :es_trayectoria_laboral_privado
 
   def es_trayectoria_laboral
   	if controller_name == "trayectoria_laboral"
@@ -11,5 +12,17 @@ class ApplicationController < ActionController::Base
   	else
   		false
   	end
+  end
+
+  def es_trayectoria_laboral_privado
+    if controller_name == "trayectoria_laboral"
+      if action_name != "sector_publico"
+        true
+      else
+        false
+      end
+    else
+      false
+    end
   end
 end
