@@ -1,4 +1,6 @@
 class TrayectoriaLaboralController < ApplicationController
+  @num_area = "2"
+
 
   def trayectoria_laboral
     @num_area = "1"
