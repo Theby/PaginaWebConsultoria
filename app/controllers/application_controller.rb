@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   helper_method :es_trayectoria_laboral
 
   def es_trayectoria_laboral
-  	if action_name == "trayectoria_laboral"
+  	if controller_name == "trayectoria_laboral"
   		true
   	else
   		false
