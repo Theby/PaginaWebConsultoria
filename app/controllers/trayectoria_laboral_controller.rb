@@ -2,12 +2,6 @@ class TrayectoriaLaboralController < ApplicationController
   @@num_area = "1"
 
 
-  helper_method :get_num_area
-  
-  def get_num_area
-    @@num_area
-  end
-
   def trayectoria_laboral
     @@num_area = "1"
   end
@@ -74,5 +68,11 @@ class TrayectoriaLaboralController < ApplicationController
   end
 
   def proyecto_4
+  end
+
+  helper_method :get_num_area
+  
+  def get_num_area
+    @@num_area
   end
 end
