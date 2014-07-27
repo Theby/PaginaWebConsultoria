@@ -6,11 +6,11 @@ class TrayectoriaLaboralController < ApplicationController
   end
 
   def area_2
-    @num_area = "2"
+    @num_area = '2'
   end
 
   def area_3
-    @num_area = "3"
+    @num_area = '3'
   end
 
   def area_4
