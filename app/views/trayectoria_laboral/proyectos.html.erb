@@ -1,10 +1,32 @@
+    	<section id="title" class="emerald">
+    	    <div class="container">
+    	        <div class="row">
+    	            <div class="col-sm-6">
+    	                <h1><%= t('trayectoria_laboral.title') %></h1>
+    	                <p><%= t('trayectoria_laboral.sub_title') %></p>
+    	                <ul class="breadcrumb pull-left">
+    	                    <li><%= link_to t('trayectoria_laboral.sector_publico'), trayectoria_laboral_sector_publico_path %></li>
+    	                    <li><%= t('trayectoria_laboral.sector_privado') %></li>
+    	                </ul>
+    	            </div>
+    	            <div class="col-sm-6">
+    	                <ul class="breadcrumb pull-right">
+    	                    <li><%= link_to t('banner.home'), welcome_index_path %></li>
+    	                    <li><%= t('trayectoria_laboral.title') %></li>
+    	                </ul>
+    	            </div>
+    	        </div>
+    	    </div>
+    	</section><!--/#title--> 
+
+
         <section id="proyecto_1" class="gris">
           <div class="container">
             <div class="center">
               <h2><%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{@num_proyecto}.title_completo") %></h2>
             </div>
 
-            <p><%= t("trayectoria_laboral.area_#{@num_area}.proyecto_1.descripcion") %>
+            <p><%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{num_proyecto}.descripcion") %>
             </p>
 
             <hr>
