@@ -4,6 +4,12 @@
               <div class="col-sm-6">
                 <h1><%= t('funda_institu.title') %></h1>
                 <p><%= t('funda_institu.sub_title') %></p>
+                <ul class="breadcrumb pull-left">
+                  <li><%= link_to t('funda_institu.objetivos.title'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
+                  <li><%= link_to t('funda_institu.mision.title'), fundamentos_institucionales_mision_path %></li>
+                  <li class="active"><%= t('funda_institu.valores.title') %></li>
+                  <li><%= link_to t('funda_institu.vision.title'), fundamentos_institucionales_vision_path %></li>
+                </ul>
               </div>
               <div class="col-sm-6">
                 <ul class="breadcrumb pull-right">
