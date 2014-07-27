@@ -18,21 +18,31 @@
 
 		<section id="portfolio" class="gris">
 			<div class="container">
-			    <ul class="portfolio-filter">
-			    	<li><%= link_to t('trayectoria_laboral.area_1.title'), trayectoria_laboral_trayectoria_laboral_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_2.title'), trayectoria_laboral_area_2_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_3.title'), trayectoria_laboral_area_3_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_4.title'), trayectoria_laboral_area_4_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_5.title'), trayectoria_laboral_area_5_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_6.title'), trayectoria_laboral_area_6_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_7.title'), trayectoria_laboral_area_7_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_8.title'), trayectoria_laboral_area_8_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_9.title'), trayectoria_laboral_area_9_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_10.title'), trayectoria_laboral_area_10_path, :class => "btn btn-default active" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_11.title'), trayectoria_laboral_area_11_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_12.title'), trayectoria_laboral_area_12_path, :class => "btn btn-default" %></li>
-			        <li><%= link_to t('trayectoria_laboral.area_13.title'), trayectoria_laboral_area_13_path, :class => "btn btn-default" %></li>
-			    </ul><!--/#portfolio-filter-->
+			    <div class="row">
+					<div class="col-sm-6">
+						<h1><%= t('trayectoria_laboral.segmentacion.organizacional') %></h1>
+						<p>
+							<%= link_to t('trayectoria_laboral.area_10.title'), trayectoria_laboral_area_10_path, :class => "btn btn-default active" %>
+							<%= link_to t('trayectoria_laboral.area_11.title'), trayectoria_laboral_area_11_path, :class => "btn btn-default" %>
+							<%= link_to t('trayectoria_laboral.area_12.title'), trayectoria_laboral_area_12_path, :class => "btn btn-default" %>
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<h1><%= t('trayectoria_laboral.segmentacion.tecnologias') %></h1>
+					    <p>
+					        <%= link_to t('trayectoria_laboral.area_1.title'), trayectoria_laboral_trayectoria_laboral_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_2.title'), trayectoria_laboral_area_2_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_3.title'), trayectoria_laboral_area_3_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_4.title'), trayectoria_laboral_area_4_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_5.title'), trayectoria_laboral_area_5_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_6.title'), trayectoria_laboral_area_6_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_7.title'), trayectoria_laboral_area_7_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_8.title'), trayectoria_laboral_area_8_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_9.title'), trayectoria_laboral_area_9_path, :class => "btn btn-default" %>
+					        <%= link_to t('trayectoria_laboral.area_13.title'), trayectoria_laboral_area_13_path, :class => "btn btn-default" %>
+					    </p><!--/#portfolio-filter-->
+					</div>
+			    </div>
 
 			    <hr>
 
