@@ -6,6 +6,7 @@ class ApplicationController < ActionController::Base
   
   helper_method :es_trayectoria_laboral
   helper_method :es_trayectoria_laboral_privado
+  helper_method :set_num_area
 
   def es_trayectoria_laboral
   	if controller_name == "trayectoria_laboral"
@@ -21,5 +22,9 @@ class ApplicationController < ActionController::Base
     else
       false
     end
+  end
+
+  def set_num_area(value)
+    @num_area = value
   end
 end
