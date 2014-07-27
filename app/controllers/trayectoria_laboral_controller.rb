@@ -1,6 +1,7 @@
 class TrayectoriaLaboralController < ApplicationController
 
   def trayectoria_laboral
+    @num_area = params[:num_area]
   end
 
   def area_2
