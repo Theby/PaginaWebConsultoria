@@ -15,12 +15,8 @@ class ApplicationController < ActionController::Base
   end
 
   def es_trayectoria_laboral_privado
-    if controller_name == "trayectoria_laboral"
-      if action_name != "sector_publico"
-        true
-      else
-        false
-      end
+    if es_trayectoria_laboral and action_name != "sector_publico"
+      true
     else
       false
     end
