@@ -36,10 +36,7 @@ Rails.application.routes.draw do
   get 'trayectoria_laboral/area_13'
   get 'trayectoria_laboral/area_15'
   get 'trayectoria_laboral/area_16'
-  get 'trayectoria_laboral/proyecto_1'
-  get 'trayectoria_laboral/proyecto_2'
-  get 'trayectoria_laboral/proyecto_3'
-  get 'trayectoria_laboral/proyecto_4'
+  get 'trayectoria_laboral/proyectos'
 
 
   # Rutas a los fundamentos institucionales

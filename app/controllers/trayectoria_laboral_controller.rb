@@ -7,11 +7,11 @@ class TrayectoriaLaboralController < ApplicationController
 
     if @aux = 0
       "progress-bar progress-bar-danger"
-    else
+    else if @aux = 1
       "progress-bar progress-bar-success"
-    else
+    else if @aux = 2
       "progress-bar progress-bar-info"
-    else
+    else if @aux = 3
       "progress-bar progress-bar-warning"
     end
   end
@@ -68,17 +68,8 @@ class TrayectoriaLaboralController < ApplicationController
   def area_16
   end
 
-  def proyecto_1
+  def proyectos
     @num_area = params[:num_area]
     @num_proyecto = params[:num_proyecto]
-  end
-
-  def proyecto_2
-  end
-
-  def proyecto_3
-  end
-
-  def proyecto_4
   end
 end
