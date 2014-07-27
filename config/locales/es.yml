@@ -96,31 +96,37 @@ es:
       title: 'Electrónica'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Diseño e implementación de laboratorios electrónicos para el mantenimiento de equipos y sistemas de telefonía en VTR Telecomunicaciones y VTR Global Com'
         descripcion:
     area_2:
       title: 'Radiodifusión'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Implementación y puesta en marcha de Radio Minería AM y Radio Camelot FM de Punta Arenas'
+        descripcion:
+      proyecto_2:
+        title: 'Estudio y supervisión traslado Planta Transmisora Radio Nuevo Mundo de Santiago'
         descripcion:
     area_3:
       title: 'Telecomunicaciones'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Implementación sistemas de transmisión y de enlaces de MM.OO de la red celular para BellSouth (Movistar), Norte y Sur de Chile. Proyecto R.O.C. (Rest Of Country)'
+        descripcion:
+      proyecto_2:
+        title: 'Implementación de sistemas de transmisión y enlaces de MM.OO de la red celular de CLARO S.A. (Chilesat PCS), Norte y Sur de Chile'
         descripcion:
     area_4:
       title: 'Computación'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Implementación de sistemas Main Frame de tecnología Wang para el respaldo y procesamiento de datos, para diversas empresas del sector Público y Privado'
         descripcion:
     area_5:
       title: 'Radiocomunicación'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Sistema de Comunicaciones para Proyecto Inmobiliario La Reserva de Chicureo'
         descripcion:
     area_6:
       title: 'Co-localización'
@@ -132,43 +138,94 @@ es:
       title: 'Real Estate'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Gestión de colocalización y real estate para empresas de telefonia celular y telecomunicaciones'
         descripcion:
     area_8:
       title: 'Site Survey'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Estudio y prospección de nuevos puntos geográficos de interés para la instalación de estaciones  celulares para BelSouth Comunicaciones (Movistar) y Chilesat PCS (CLARO)'
+        descripcion:
+      proyecto_2:
+        title: 'Medición del espectro radioeléctrico, definición de servidumbres de paso y servidumbre eléctrica'
+        descripcion:
+      proyecto_3:
+        title: 'Estudios de Cobertura con Predict Plan y desarrollo de perfiles de radioenlaces de MM.OO'
         descripcion:
     area_9:
       title: 'Monitoreo Satelital'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Implementación de sistema GPS para prospecciones geodésicas en Minera Tres Valles, Salamanca'
         descripcion:
     area_10:
-      title: 'Gestión Estratégica'
+      title: 'Gestión Organizacional'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Desarrollo de Plan Estratégico para la empresa GPS UBICAR. S.A'
+        descripcion:
+      proyecto_2:
+        title: 'Diagnostico Organizacional y Estratégico para empresa POSITRON LTDA'
+        descripcion:
+      proyecto_3:
+        title: 'Estudio de Mercado para sistema de localización por radiofrecuencia para Gallyas Telecomunicaciones'
+        descripcion:
+      proyecto_4:
+        title: 'Desarrollo de Plan de Negocio para Telrad Chile S.A. para su nueva Unidad Estratégica de Negocios, Officetrack. Estudio de Mercado, captación de prospectos, Plan de Marketing, Plan de Ventas, estudio y definición de precios, desarrollo de Propuesta Comercial'
         descripcion:
     area_11:
       title: 'Gestión de la Calidad'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Diseño e implementación de laboratorios electrónicos para el mantenimiento de equipos y sistemas de telefonía en VTR Telecomunicaciones y VTR Global Com. estándares de la Calidad de norma ISO 9001 y procedimientos de mejora continua'
         descripcion:
     area_12:
       title: 'Evaluación y Gestión de Proyectos'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Evaluación Económica y Financiera de Proyecto de inserción en Chile de Plataforma de Gestión Logística y Administración de fuerza laboral móvil, para empresa Telrad Chile S.A'
+        descripcion:
+      proyecto_2:
+        title: 'Evaluación Económica y Financiera para proyecto Tributo a Michael Jackson de productora musical y de eventos Arte y Sonido Producciones'
         descripcion:
     area_13:
       title: 'Energías Renovables y no Convencionales'
       descripcion:
       proyecto_1:
-        title:
+        title: 'Implementación de Casetas de energía solar para sistema de monitoreo mediante LASER para faenas mineras en Minera Escondida, Antofagasta'
+        descripcion:
+      proyecto_2:
+        title: 'Desarrollo de sistemas de energía fotovoltaica móvil para comunicaciones en prospecciones de terreno de Minera Escondida'
+        descripcion:
+      proyecto_3:
+        title: 'Implementación de sistemas de respaldo de energía en -48Vdc y 220 Vac, para la red celular de BellSouth (Movistar), Norte y Sur de Chile. Proyecto R.O.C (Rest Of Country)'
+        descripcion:
+      proyecto_4:
+        title: 'Implementación de sistemas de respaldo de energía en -48 Vdc y 220 Vac de la red celular de CLARO S.A. (Chilesat PCS), Norte y Sur de Chile'
+        descripcion:
+    area_14:
+      title: 'Computación'
+      descripcion:
+      proyecto_1:
+        title: 'Implementación de sistemas Main Frame de tecnología Wang para el respaldo y procesamiento de datos, para diversas empresas del sector Público y Privado'
+        descripcion:
+    area_15:
+      title: 'Ingeniería'
+      descripcion:
+      proyecto_1:
+        title: 'Desmontaje estaciones bases y centro de control sistema localización por radiofrceuencia para Gallyas Telecomunicaciones'
+        descripcion:
+      proyecto_2:
+        title: 'Instalación, puesta en marcha y operación de estaciones base y centro de control sistema localizacion por radiofrecuencia para Gallyas Telecomunicaciones'
+        descripcion:
+      proyecto_3:
+        title: 'Estudio de cobertura y selección de sitios para construcción de estaciones de telefonia celular para AJ Ingenieros'
+        descripcion:
+    area_16:
+      title: 'Obras Civiles OO.CC'
+      descripcion:
+      proyecto_1:
+        title: 'Supervisión construcción estaciones bases plan expansión nacional de Bellsouth Comunicaciones'
         descripcion:
   sobre_nosotros:
     title: 'Sobre Nosotros'
