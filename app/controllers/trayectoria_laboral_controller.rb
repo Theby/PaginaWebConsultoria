@@ -5,19 +5,19 @@ class TrayectoriaLaboralController < ApplicationController
   def class_def(proyect)
     @aux = proyect % 4
 
-    if @aux = 0
+    if @aux == 0
       "progress-bar progress-bar-danger"
     end
 
-    if @aux = 1
+    if @aux == 1
       "progress-bar progress-bar-success"
     end
 
-    if @aux = 2
+    if @aux == 2
       "progress-bar progress-bar-info"
     end
-    
-    if @aux = 3
+
+    if @aux == 3
       "progress-bar progress-bar-warning"
     end
   end
