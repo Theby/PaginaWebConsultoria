@@ -1,5 +1,21 @@
 class TrayectoriaLaboralController < ApplicationController
 
+  helper_method :class_def
+
+  def class_def(proyect)
+    @aux = proyect % 4
+
+    if @aux = 0
+      "progress-bar progress-bar-danger"
+    else
+      "progress-bar progress-bar-success"
+    else
+      "progress-bar progress-bar-info"
+    else
+      "progress-bar progress-bar-warning"
+    end
+  end
+
   def trayectoria_laboral
     @num_area = params[:num_area]
     @proyectos_size = params[:proyectos_size]
