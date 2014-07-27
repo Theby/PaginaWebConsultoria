@@ -2,13 +2,17 @@
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-sm-6">
-		                <h1>Portfolio</h1>
-		                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+		                <h1><%= t('trayectoria_laboral.title') %></h1>
+		                <p><%= t('trayectoria_laboral.sub_title') %></p>
+		                <ul class="breadcrumb pull-left">
+		                    <li class="active"><%= t('trayectoria_laboral.sector_publico') %></li>
+		                    <li><%= link_to t('trayectoria_laboral.sector_privado'), trayectoria_laboral_trayectoria_laboral_path %></li>
+		                </ul>
 		            </div>
 		            <div class="col-sm-6">
 		                <ul class="breadcrumb pull-right">
-		                    <li><a href="index.html">Home</a></li>
-		                    <li class="active">Portfolio</li>
+		                    <li><%= link_to t('banner.home'), welcome_index_path %></li>
+		                    <li class="active"><%= t('trayectoria_laboral.title') %></li>
 		                </ul>
 		            </div>
 		        </div>
@@ -17,7 +21,7 @@
 
 		<section class="gris">
 			<div class="container">
-				<h1>About Us</h1>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+				<h1><%= t('mantencion.title') %></h1>
+				<p><%= t('mantencion.descripcion') %></p>
 			</div>
 		</section>

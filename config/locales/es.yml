@@ -87,6 +87,8 @@ es:
     title: 'Trayectoria Laboral'
     sub_title: 'Áreas y proyectos en los que hemos participado'
     proyectos: 'Proyectos'
+    sector_publico: 'Sector Público'
+    sector_privado: 'Sector Privado'
     area_1:
       title: 'Electrónica'
       descripcion:
@@ -242,6 +244,9 @@ es:
       email_placeholder: 'Correo electronico'
       mensaje_placeholder: 'Mensaje'
       boton_enviar: 'Enviar Mensaje'
+  mantencion:
+    title: 'Página en mantención'
+    descripcion: 'Por favor vuelva en otro momento, aún trabajamos para mantener esta página en funcionamiento.'
   date:
     abbr_day_names:
     - dom
