@@ -1,6 +1,4 @@
 class TrayectoriaLaboralController < ApplicationController
-  attr_accessor :num_area
-
 
   def trayectoria_laboral
     @num_area = "1"
