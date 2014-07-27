@@ -89,6 +89,9 @@ es:
     proyectos: 'Proyectos'
     sector_publico: 'Sector Público'
     sector_privado: 'Sector Privado'
+    segmentacion:
+      organizacional: 'Proyectos en Gestión Organizacional'
+      tecnologias: 'Proyectos en Técnologías'
     area_1:
       title: 'Electrónica'
       descripcion:
