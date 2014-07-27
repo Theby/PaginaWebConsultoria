@@ -7,11 +7,17 @@ class TrayectoriaLaboralController < ApplicationController
 
     if @aux = 0
       "progress-bar progress-bar-danger"
-    else if @aux = 1
+    end
+
+    if @aux = 1
       "progress-bar progress-bar-success"
-    else if @aux = 2
+    end
+
+    if @aux = 2
       "progress-bar progress-bar-info"
-    else if @aux = 3
+    end
+    
+    if @aux = 3
       "progress-bar progress-bar-warning"
     end
   end
