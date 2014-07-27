@@ -50,6 +50,7 @@ class TrayectoriaLaboralController < ApplicationController
 
   def proyecto_1
     @num_area = params[:num_area]
+    @num_proyecto = params[:num_proyecto]
   end
 
   def proyecto_2
