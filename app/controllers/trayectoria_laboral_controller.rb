@@ -3,21 +3,14 @@ class TrayectoriaLaboralController < ApplicationController
   helper_method :class_def
 
   def class_def(proyect)
-    @aux = proyect % 4
 
-    if @aux == 0
+    if proyect % 4 == 0
       "progress-bar progress-bar-danger"
-    end
-
-    if @aux == 1
+    elsif proyect % 4 == 1
       "progress-bar progress-bar-success"
-    end
-
-    if @aux == 2
+    elsif proyect % 4 == 2
       "progress-bar progress-bar-info"
-    end
-
-    if @aux == 3
+    elsif proyect % 4 == 3
       "progress-bar progress-bar-warning"
     end
   end
