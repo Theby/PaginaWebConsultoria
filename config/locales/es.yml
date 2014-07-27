@@ -45,13 +45,13 @@ es:
     mapa_sitio: 'Mapa del Sitio'
   welcome:
     imagen_1:
-      title:
-      descripcion:
-      link:
+      title: 'Trabajo en el sector privado'
+      descripcion: 'Gran variedad de proyectos en diferentes áreas, desde Eléctronica hasta Gestión de Proyectos.'
+      link: 'Leer Más'
     imagen_2:
-      title:
-      descripcion:
-      link:
+      title: 'Servicios'
+      descripcion: 'Una gran cantidad de servicios para satisfacer todas las necesidades empresariales.'
+      link: 'Leer Más'
     resumen_1:
       title: 'El mejor servicio'
       descripcion: 'Nuestra empresa brinda los mejores servicios en: Gestión Estratégica, Preparación para la Certificación ISO 9001, Gestión Estratégica, Redes de Datos y mucho más.'
