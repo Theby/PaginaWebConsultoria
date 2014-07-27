@@ -2,6 +2,7 @@ class TrayectoriaLaboralController < ApplicationController
 
   def trayectoria_laboral
     @num_area = params[:num_area]
+    @proyectos_size = params[:proyectos_size]
   end
 
   def area_2
