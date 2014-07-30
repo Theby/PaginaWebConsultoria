@@ -2,13 +2,14 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-6">
-	                    <h1><%= t('sobre_nosotros.title') %></h1>
-	                    <p><%= t('sobre_nosotros.sub_title') %></p>
+	                    <h1><%= t('sobre_nosotros.miembros.miembro_1.nombre') %></h1>
+	                    <p><%= t('sobre_nosotros.miembros.miembro_1.cargo') %></p>
 	                </div>
 	                <div class="col-sm-6">
 	                    <ul class="breadcrumb pull-right">
 	                        <li><%= link_to t('banner.home'), welcome_index_path %></li>
-	                        <li class="active"><%= t('sobre_nosotros.title') %></li>
+	                        <li><%= link_to t('sobre_nosotros.title'), sobre_nosotros_sobre_nosotros_path %></li>
+	                        <li class="active"><%= t('sobre_nosotros.miembros.miembro_1.nombre') %></li>
 	                    </ul>
 	                </div>
 	            </div>
