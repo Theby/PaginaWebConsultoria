@@ -267,11 +267,11 @@ es:
         nombre: 'Charles Richard Montefusco Sánchez'
         cargo: 'Dueño'
         resumen: 'Ingeniero Civil Industrial, Licenciado en Ciencias de la Ingeniería, Ingeniero Electrónico, Magister en Ingeniería Industrial mención Gestión. Ingeniería de la Calidad. Diplomado en Evaluación de Proyectos.'
-        link_1:
+        link_1: 
           title: 'Perfil profesional en LinkedIn'
           descripcion: 'Curriculum Vitae Online'
-          link: '#'
-        descripcion_1:
+          link: 'https://www.linkedin.com/pub/charles-montefusco-s%C3%A1nchez/22/43/1b3'
+        descripcion_1: 'Ingeniero Civil Industrial e Ingeniero de Ejecución en Electrónica, 58 años, 22 de ellos dedicados a las áreas de Operaciones y Logística. Amplia experiencia en gestión e implementación de proyectos de respaldo de energía eléctrica en telecomunicaciones. Especialista en gestión estratégica y desarrollo de sistemas de gestión y auditoría de la calidad. Excelentes relaciones comerciales. Buen liderazgo en equipos de trabajo multidisciplinarios, generando asociaciones efectivas en todos los niveles dentro y fuera de la organización, con motivación hacia el logro de objetivos. Espíritu creativo, analítico, metódico y habilidades en trabajos bajo presión. Destreza en el manejo de recursos y toma de decisiones.'
       miembro_2:
         nombre: 'Fernando Salas Martínez'
         cargo: 'Dueño'
@@ -280,7 +280,11 @@ es:
           title: 'Perfil profesional en LinkedIn'
           descripcion: 'Curriculum Vitae Online'
           link: '#'
-        descripcion_1:
+        descripcion_1: 'Profesional con más de 30 años de experiencia en las áreas de Explotación, Operaciones e Ingeniería de Proyectos. Ingeniero Civil Electricista con mención en Electrónica y Telecomunicaciones, Analista de Sistemas y Diplomado en Administración de Empresas.'
+        descripcion_2: 'Poseo amplia experiencia en la explotación y operación en diferentes áreas operativas de empresas de telecomunicaciones, así como en la planificación, gestión, control e implementación de proyectos de ingeniería en telecomunicaciones, radiocomunicaciones e informática.'
+        descripcion_3: 'Buen nivel de manejo con proveedores y empresas colaboradoras tanto en tareas operativas como en la ejecución de proyectos.'
+        descripcion_4: 'Alto nivel y capacidad de ejercer liderazgo en equipos de trabajo multidisciplinarios, gran espíritu creativo y crítico, analítico y metódico, tolerancia a la frustración y capacidad de trabajar bajo presión, generando motivación hacia el logro de objetivos.'
+        descripcion_5: 'Habilidad para formar equipos de trabajo y asociaciones efectivas en todos los niveles dentro y fuera de la organización, con destreza en el manejo de recursos y toma de decisiones.'
   contratanos:
     title: 'Servicios'
     sub_title: 'Llámanos y pide nuestros servicios'
