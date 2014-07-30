@@ -258,18 +258,18 @@ es:
     historia:
       title: 'Historia'
       sub_title: 'Años de experiencia'
-      descripcion: 'La sociedad de Ingenieros consultores ha venido desarrollando actividades desde 1998 sin una estructura formal. Han brindado asesoría a diferentes empresas del rubro de las Telecomunicaciones juntos o en forma independiente. En el presente 2014 se implementa formalmente la Sociedad de Consultoría...'
+      descripcion: 'Los Ingenieros Consultores han venido desarrollando actividades desde 1998 en diferentes proyectos, brindado asesoría fundamentalmente en el sector industrial de Telecomunicaciones y otras, juntos o en forma independiente. En el año 2014 se implementa formalmente la Sociedad de Consultoría orientada a las áreas de Gestión Organizacional e Ingeniería Tecnológica.'
     miembros:
       title: 'Miembros de la Consultoría'
       descripcion: 'Para ver un resumen laboral de cada uno de los integrantes seleccione uno de los avatares a continuación.'
       miembro_1:
         nombre: 'Charles Richard Montefusco Sánchez'
         cargo: 'Dueño'
-        resumen: 'Ingeniero Civil Industrial, Ingeniero Electrónico, Magister en Ingeniería Industrial mención Gestión. Ingeniería de la Calidad.'
+        resumen: 'Ingeniero Civil Industrial, Licenciado en Ciencias de la Ingeniería, Ingeniero Electrónico, Magister en Ingeniería Industrial mención Gestión. Ingeniería de la Calidad. Diplomado en Evaluación de Proyectos.'
       miembro_2:
         nombre: 'Fernando Salas Martínez'
         cargo: 'Dueño'
-        resumen: 'Ingeniero Civil Electricista, Licenciado en Ingeniería, Analista de Sistemas, Diplomado en Administración de Empresas.'
+        resumen: 'Ingeniero Civil Electricista, Licenciado en Ciencias de la Ingeniería, Analista de Sistemas, Diplomado en Administración de Empresas.'
   contratanos:
     title: 'Servicios'
     sub_title: 'Llámanos y pide nuestros servicios'
@@ -317,6 +317,9 @@ es:
         descripcion:
       servicio_9:
         title: 'Energías Renovables No Convencionales'
+        descripcion:
+      servicio_10:
+        title: 'Evaluación de Proyectos'
         descripcion:
   contactanos:
     title: 'Contáctanos'
