@@ -39,18 +39,18 @@ es:
       miembros: 'Miembros'
     contratanos:
       title: 'Servicios'
-      datos_contacto: 'Datos de Contácto'
+      datos_contacto: 'Datos de Contacto'
       servicios: 'Servicios'
     contactanos: 'Contáctanos'
     mapa_sitio: 'Mapa del Sitio'
   welcome:
     imagen_1:
       title: 'Proyectos en el sector privado'
-      descripcion: 'Gran variedad de proyectos en diferentes áreas, desde Eléctronica hasta Gestión de Proyectos.'
+      descripcion: 'Gran variedad de proyectos en diferentes áreas, desde Electrónica hasta Gestión de Proyectos.'
       link: 'Leer Más'
     imagen_2:
       title: 'Proyecto en el sector público'
-      descripcion: 'Gran variadedad de proyectos para el sector público.'
+      descripcion: 'Gran variedad de proyectos para el sector público.'
       link: 'Leer Más'
     imagen_3:
       title: 'Servicios'
@@ -66,14 +66,14 @@ es:
       link: 'Ver más proyectos'
     resumen_3:
       title: 'Contáctanos'
-      descripcion: 'Cotactanos directamente ante cualquier duda que no puedas satisfacer navegando por esta página.'
+      descripcion: 'Contáctanos directamente ante cualquier duda que no puedas satisfacer navegando por esta página.'
       link: 'Contáctanos'
   funda_institu:
     title: 'Fundamentos Institucionales'
     sub_title: 'Todo lo que necesitas saber sobre nuestra consultora. Nuestra razón de ser.'
     objetivos:
       title: 'Objetivos'
-      sub_title: '¿Por que deseamos hacer esto?'
+      sub_title: '¿Por qué deseamos hacer esto?'
       descripcion_1: 'Entregar resultados confiables ajustados a requerimientos. Mantener una estrecha comunicación con nuestros clientes. Realizar todas las acciones que trasmitan nuestra ocupación en resolver la problemática de nuestros clientes. Incorporar permanentemente a nuestro background las innovaciones y desarrollos tecnológicos.'
     mision:
       title: 'Misión'
@@ -149,8 +149,8 @@ es:
       title: 'Real Estate'
       descripcion:
       proyecto_1:
-        title: 'Gestión de colocalización y real estate ...'
-        title_completo: 'Gestión de colocalización y real estate para empresas de telefonia celular y telecomunicaciones'
+        title: 'Gestión de co-localización y real estate ...'
+        title_completo: 'Gestión de co-localización y real estate para empresas de telefonía celular y telecomunicaciones'
         descripcion:
     area_8:
       title: 'Site Survey'
@@ -198,7 +198,7 @@ es:
       descripcion:
       proyecto_1:
         title: 'Diseño e implementación de laboratorios electrónicos ...'
-        title_completo: 'Diseño e implementación de laboratorios electrónicos para el mantenimiento de equipos y sistemas de telefonía en VTR Telecomunicaciones y VTR Global Com. estándares de la Calidad de norma ISO 9001 y procedimientos de mejora continua'
+        title_completo: 'Diseño e implementación de laboratorios electrónicos para el mantenimiento de equipos y sistemas de telefonía en VTR Telecomunicaciones y VTR Global Com. Estándares de la Calidad de norma ISO 9001 y procedimientos de mejora continua'
         descripcion:
     area_12:
       title: 'Evaluación y Gestión de Proyectos'
@@ -235,15 +235,15 @@ es:
       descripcion:
       proyecto_1:
         title: 'Desmontaje estaciones bases y centro de control ...'
-        title_completo: 'Desmontaje estaciones bases y centro de control sistema localización por radiofrceuencia para Gallyas Telecomunicaciones'
+        title_completo: 'Desmontaje estaciones bases y centro de control sistema localización por radiofrecuencia para Gallyas Telecomunicaciones'
         descripcion:
       proyecto_2:
         title: 'Instalación, puesta en marcha y operación de ...'
-        title_completo: 'Instalación, puesta en marcha y operación de estaciones base y centro de control sistema localizacion por radiofrecuencia para Gallyas Telecomunicaciones'
+        title_completo: 'Instalación, puesta en marcha y operación de estaciones base y centro de control sistema localización por radiofrecuencia para Gallyas Telecomunicaciones'
         descripcion:
       proyecto_3:
         title: 'Estudio de cobertura y selección de sitios para ...'
-        title_completo: 'Estudio de cobertura y selección de sitios para construcción de estaciones de telefonia celular para AJ Ingenieros'
+        title_completo: 'Estudio de cobertura y selección de sitios para construcción de estaciones de telefonía celular para AJ Ingenieros'
         descripcion:
     area_16:
       title: 'Obras Civiles OO.CC'
@@ -290,8 +290,8 @@ es:
     sub_title: 'Llámanos y pide nuestros servicios'
     descripcion:
     datos_contacto:
-      title: 'Datos de contácto'
-      sub_title: 'Todo lo que necesitas saber para contrátar nuestros servicios'
+      title: 'Datos de Contacto'
+      sub_title: 'Todo lo que necesitas saber para contratar nuestros servicios'
       descripcion: 
       celular: 'Celular: '
       celular_1: '+569 8 28 92 790'
@@ -338,13 +338,13 @@ es:
         descripcion:
   contactanos:
     title: 'Contáctanos'
-    sub_title: 'Envianos un mensaje con tus opiníones'
+    sub_title: 'Envíanos un mensaje con tus opiniones'
     descripcion:
     form:
       title: 'Formulario de contacto'
       nombre_placeholder: 'Nombre'
       apellido_placeholder: 'Apellidos'
-      email_placeholder: 'Correo electronico'
+      email_placeholder: 'Correo electrónico'
       mensaje_placeholder: 'Mensaje'
       boton_enviar: 'Enviar Mensaje'
   mantencion:
