@@ -3,6 +3,7 @@
         <ol class="carousel-indicators">
             <li data-target="#main-slider" data-slide-to="0" class="active"></li>
             <li data-target="#main-slider" data-slide-to="1"></li>
+            <li data-target="#main-slider" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="item active" style="background-image: url(<%= asset_path 'slider/bg1.jpg' %>)">
@@ -28,6 +29,20 @@
                                 <p class="animation animated-item-2"><%= t('welcome.imagen_2.descripcion') %></p>
                                 <br>
                                 <%= link_to t('welcome.imagen_2.link'), contratanos_contratanos_path(anchor: "servicios"), :class => "btn btn-md animation animated-item-3" %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item active" style="background-image: url(<%= asset_path 'slider/bg3.jpg' %>)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="carousel-content center centered">
+                                <h2 class="animation animated-item-1"><%= t('welcome.imagen_3.title') %></h2>
+                                <p class="animation animated-item-2"><%= t('welcome.imagen_3.descripcion') %></p>
+                                <br>
+                                <%= link_to t('welcome.imagen_3.link'), trayectoria_laboral_sector_publico_path, :class => "btn btn-md animation animated-item-3" %>
                             </div>
                         </div>
                     </div>

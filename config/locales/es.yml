@@ -30,25 +30,29 @@ es:
       vision: 'Visión'
       valores: 'Valores'
     trayec_laboral:
-      title: 'Trayectoria Laboral'
+      title: 'Proyectos'
       sector_publico: 'Sector Público'
       sector_privado: 'Sector Privado'
     sobre_nosotros:
-      title: 'Sobre Nosotros'
+      title: 'Quienes Somos'
       historia: 'Historia'
       miembros: 'Miembros'
     contratanos:
-      title: 'Contrátanos'
+      title: 'Servicios'
       datos_contacto: 'Datos de Contáctanos'
       servicios: 'Servicios'
     contactanos: 'Contáctanos'
     mapa_sitio: 'Mapa del Sitio'
   welcome:
     imagen_1:
-      title: 'Trabajo en el sector privado'
+      title: 'Proyectos en el sector privado'
       descripcion: 'Gran variedad de proyectos en diferentes áreas, desde Eléctronica hasta Gestión de Proyectos.'
       link: 'Leer Más'
     imagen_2:
+      title: 'Proyecto en el sector público'
+      descripcion: 'Gran variadedad de proyectos para el sector público.'
+      link: 'Leer Más'
+    imagen_3:
       title: 'Servicios'
       descripcion: 'Una gran cantidad de servicios para satisfacer todas las necesidades empresariales.'
       link: 'Leer Más'
@@ -84,14 +88,14 @@ es:
       sub_title: 'Lo que más valoramos'
       descripcion_1: 'Honestidad y transparencia en el desarrollo de las consultorías. Probidad en las acciones y compromisos. Lealtad y confidencialidad para nuestros clientes.'
   trayectoria_laboral:
-    title: 'Trayectoria Laboral'
+    title: 'Proyectos'
     sub_title: 'Áreas y proyectos en los que hemos participado'
     proyectos: 'Proyectos'
     sector_publico: 'Sector Público'
     sector_privado: 'Sector Privado'
     segmentacion:
-      organizacional: 'Proyectos en Gestión Organizacional'
-      tecnologias: 'Proyectos en Técnologías'
+      organizacional: 'Área Gestión Organizacional'
+      tecnologias: 'Área Tecnológica'
     area_1:
       title: 'Electrónica'
       descripcion:
@@ -249,7 +253,7 @@ es:
         title_completo: 'Supervisión construcción estaciones bases plan expansión nacional de Bellsouth Comunicaciones'
         descripcion:
   sobre_nosotros:
-    title: 'Sobre Nosotros'
+    title: 'Quienes Somos'
     sub_title: 'Nuestra historia y nuestros miembros'
     historia:
       title: 'Historia'
@@ -267,7 +271,7 @@ es:
         cargo: 'Dueño'
         resumen: 'Ingeniero Civil Electricista, Licenciado en Ingeniería, Analista de Sistemas, Diplomado en Administración de Empresas.'
   contratanos:
-    title: 'Contrátanos'
+    title: 'Servicios'
     sub_title: 'Llámanos y pide nuestros servicios'
     descripcion:
     datos_contacto:

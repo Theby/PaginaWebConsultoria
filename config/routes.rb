@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get 'contratanos/contratanos'
 
 
-  # Rutas a las vistas sobre nosotros
+  # Rutas a las vistas Quienes Somos
   get 'sobre_nosotros/sobre_nosotros'
   get 'sobre_nosotros/miembros'
   # Ruta al perfil de Charles Montefusco
@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   get 'sobre_nosotros/fernandosalas'
   
 
-  # Rutas a las vistas de trayectoria laboral
+  # Rutas a las vistas de Proyectos
   get 'trayectoria_laboral/trayectoria_laboral'
   get 'trayectoria_laboral/sector_publico'
   get 'trayectoria_laboral/proyectos'
