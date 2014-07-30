@@ -2,13 +2,14 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-6">
-	                    <h1><%= t('sobre_nosotros.title') %></h1>
-	                    <p><%= t('sobre_nosotros.sub_title') %></p>
+	                    <h1><%= t('sobre_nosotros.miembros.miembro_2.nombre') %></h1>
+	                    <p><%= t('sobre_nosotros.miembros.miembro_2.cargo') %></p>
 	                </div>
 	                <div class="col-sm-6">
 	                    <ul class="breadcrumb pull-right">
 	                        <li><%= link_to t('banner.home'), welcome_index_path %></li>
-	                        <li class="active"><%= t('sobre_nosotros.title') %></li>
+	                        <li><%= link_to t('sobre_nosotros.miembros.title'), sobre_nosotros_miembros_path %></li>
+	                        <li class="active"><%= t('sobre_nosotros.miembros.miembro_2.nombre') %></li>
 	                    </ul>
 	                </div>
 	            </div>
@@ -17,7 +18,19 @@
 
 		<section class="gris">
 			<div class="container">
-				<h1>About Us</h1>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+				<div id="meet-the-team" class="row">
+		            <div class="col-md-3 col-xs-6">
+		                <div class="center">
+		                	<p><%= link_to image_tag('team-member.jpg'), sobre_nosotros_fernandosalas_path, :class => 'img-responsive img-thumbnail' %></p>
+		                    <h5><%= t('sobre_nosotros.miembros.miembro_2.nombre') %><small class="designation muted"><%= t('sobre_nosotros.miembros.miembro_2.cargo') %></small></h5>
+		                    <p><%= t('sobre_nosotros.miembros.miembro_2.resumen') %></p>
+		                    <p><b><a target="_blank" href="<%= t('sobre_nosotros.miembros.miembro_2.link_1.link') %>" title="<%= t('sobre_nosotros.miembros.miembro_2.link_1.title') %>"><%= t('sobre_nosotros.miembros.miembro_2.link_1.descripcion') %></a></b></p>
+		                </div>
+		            </div>        
+		            <div class="col-sm-6">
+		                <h1><%= t('sobre_nosotros.miembros.title_resumen') %></h1>
+						<p><%= t('sobre_nosotros.miembros.miembro_2.descripcion_1') %></p>
+		            </div>
+		        </div><!--/#meet-the-team-->
 			</div>
 		</section>

@@ -39,7 +39,7 @@ es:
       miembros: 'Miembros'
     contratanos:
       title: 'Servicios'
-      datos_contacto: 'Datos de Contáctanos'
+      datos_contacto: 'Datos de Contácto'
       servicios: 'Servicios'
     contactanos: 'Contáctanos'
     mapa_sitio: 'Mapa del Sitio'
@@ -212,7 +212,7 @@ es:
         title_completo: 'Evaluación Económica y Financiera para proyecto Tributo a Michael Jackson de productora musical y de eventos Arte y Sonido Producciones'
         descripcion:
     area_13:
-      title: 'Energías Renovables y no Convencionales'
+      title: 'Energías Renovables No Convencionales'
       descripcion:
       proyecto_1:
         title: 'Implementación de Casetas de energía solar ...'
@@ -262,6 +262,7 @@ es:
     miembros:
       title: 'Miembros de la Consultoría'
       descripcion: 'Para ver un resumen laboral de cada uno de los integrantes seleccione uno de los avatares a continuación.'
+      title_resumen: 'Resumen Laboral'
       miembro_1:
         nombre: 'Charles Richard Montefusco Sánchez'
         cargo: 'Dueño'
@@ -270,10 +271,16 @@ es:
           title: 'Perfil profesional en LinkedIn'
           descripcion: 'Curriculum Vitae Online'
           link: '#'
+        descripcion_1:
       miembro_2:
         nombre: 'Fernando Salas Martínez'
         cargo: 'Dueño'
         resumen: 'Ingeniero Civil Electricista, Licenciado en Ciencias de la Ingeniería, Analista de Sistemas, Diplomado en Administración de Empresas.'
+        link_1:
+          title: 'Perfil profesional en LinkedIn'
+          descripcion: 'Curriculum Vitae Online'
+          link: '#'
+        descripcion_1:
   contratanos:
     title: 'Servicios'
     sub_title: 'Llámanos y pide nuestros servicios'
