@@ -18,7 +18,18 @@
 
 		<section class="gris">
 			<div class="container">
-				<h1>About Us</h1>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+				<div id="meet-the-team" class="row">
+				    <div class="col-md-3 col-xs-6">
+				        <div class="center">
+				        	<p><%= link_to image_tag('team-member.jpg'), sobre_nosotros_charlesmontefusco_path, :class => 'img-responsive img-thumbnail' %></p>
+				            <h5><%= t('sobre_nosotros.miembros.miembro_1.nombre') %><small class="designation muted"><%= t('sobre_nosotros.miembros.miembro_1.cargo') %></small></h5>
+				            <p><%= t('sobre_nosotros.miembros.miembro_1.resumen') %></p>
+				        </div>
+				    </div>        
+				    <div class="col-md-3 col-xs-6">
+				        <h1>About Us</h1>
+				        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+				    </div>
+				</div><!--/#meet-the-team-->
 			</div>
 		</section>
