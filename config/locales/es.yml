@@ -266,6 +266,10 @@ es:
         nombre: 'Charles Richard Montefusco Sánchez'
         cargo: 'Dueño'
         resumen: 'Ingeniero Civil Industrial, Licenciado en Ciencias de la Ingeniería, Ingeniero Electrónico, Magister en Ingeniería Industrial mención Gestión. Ingeniería de la Calidad. Diplomado en Evaluación de Proyectos.'
+        link_1:
+          title: 'Perfil profesional en LinkedIn'
+          descripcion: 'Curriculum Vitae Online'
+          link: '#'
       miembro_2:
         nombre: 'Fernando Salas Martínez'
         cargo: 'Dueño'
