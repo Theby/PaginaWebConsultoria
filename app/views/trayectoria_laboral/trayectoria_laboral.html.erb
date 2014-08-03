@@ -24,21 +24,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <h1><%= t('trayectoria_laboral.segmentacion.organizacional') %></h1>
+                        <h2><%= t('trayectoria_laboral.segmentacion.organizacional') %></h2>
                         <ol>
-                            <li><%= link_to t('trayectoria_laboral.area_11.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "11", :proyectos_size => 1) %></li>
+                            <li><%= link_to t('trayectoria_laboral.area_11.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "11", :proyectos_size => 1), :class => "strong" %></li>
                             <li><%= link_to t('trayectoria_laboral.area_12.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "12", :proyectos_size => 2) %></li>
                             <li><%= link_to t('trayectoria_laboral.area_10.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "10", :proyectos_size => 4) %></li>
                         </ol>
 
-                        <h1><%= t('trayectoria_laboral.segmentacion.tecnologias') %></h1>
+                        <h2><%= t('trayectoria_laboral.segmentacion.tecnologias') %></h2>
                         <ol>
                             <li><%= link_to t('trayectoria_laboral.area_1.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "1", :proyectos_size => 1) %></li>
                             <li><%= link_to t('trayectoria_laboral.area_2.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "2", :proyectos_size => 2) %></li>
                             <li><%= link_to t('trayectoria_laboral.area_3.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "3", :proyectos_size => 2) %></li>
                             <li><%= link_to t('trayectoria_laboral.area_4.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "4", :proyectos_size => 1) %></li>
                             <li><%= link_to t('trayectoria_laboral.area_5.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "5", :proyectos_size => 1) %></li>
-                            <li><%= link_to t('trayectoria_laboral.area_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "6", :proyectos_size => 1) %></li>                          
+                            <li><%= link_to t('trayectoria_laboral.area_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "6", :proyectos_size => 1) %></li>
                             <li><%= link_to t('trayectoria_laboral.area_7.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "7", :proyectos_size => 1) %></li>
                             <li><%= link_to t('trayectoria_laboral.area_8.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "8", :proyectos_size => 3) %></li>
                             <li><%= link_to t('trayectoria_laboral.area_9.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "9", :proyectos_size => 1) %></li>
@@ -48,7 +48,7 @@
                         </ol><!--/#portfolio-filter-->
                     </div>
                     <div>
-                        <h1><%= t("trayectoria_laboral.area_#{@num_area}.title") %></h1>
+                        <h2><%= t("trayectoria_laboral.area_#{@num_area}.title") %></h2>
                         <p align="justify"><%= t("trayectoria_laboral.area_#{@num_area}.descripcion") %></p>
 
                         <hr>
