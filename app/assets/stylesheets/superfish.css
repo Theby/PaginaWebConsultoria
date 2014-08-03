@@ -2,9 +2,6 @@
 .sf-menu li.sfHover > ul {
 	display: block;
 }
-ul.sf-menu > li > a > span.sf-sub-indicator { 
-	display: none;
-}
 
 /*** DEMO SKIN ***/
 .sf-menu li:hover,
