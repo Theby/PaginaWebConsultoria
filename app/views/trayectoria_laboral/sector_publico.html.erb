@@ -21,26 +21,19 @@
 
 
     	<section id="portfolio" class="gris">
-    		<div class="container">
-    		    <div class="row">
-    				<div class="col-sm-6">
-    					<h1><%= t('trayectoria_laboral.segmentacion.organizacional') %></h1>
-    				</div>
-    				<div class="col-sm-6">
-    					<h1><%= t('trayectoria_laboral.segmentacion.tecnologias') %></h1>
-    				</div>
-    		    </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2><%= t('trayectoria_laboral.segmentacion.organizacional') %></h2>
+                        <h2><%= t('trayectoria_laboral.segmentacion.tecnologias') %></h2>
+                    </div>
+                    <div class="col-md-8">
+                        <h2><%= t("trayectoria_laboral.area_#{@num_area}.title") %></h2>
 
-    		    <hr>
+                        <hr>
 
-
-			   	<div class="row">
-	                <div class="col-sm-6">
-	                </div>
-	                <div class="col-sm-6">
-	                    <h2><%= t("trayectoria_laboral.proyectos") %></h2>
-	                </div>
-	            </div>
-
-			</div>
-		</section><!--/#portfolio-->
+                        <h2><%= t("trayectoria_laboral.proyectos") %></h2>                        
+                    </div>
+                </div>
+            </div>
+        </section><!--/#portfolio-->
