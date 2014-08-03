@@ -54,8 +54,10 @@
                         <hr>
 
                         <h2><%= t("trayectoria_laboral.proyectos") %></h2>
-                        <% (1..@proyectos_size).each do |i| %>
-                        <p class="strong emerald"> <%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{i}.title_completo") %> </p>
+                        <ol type="I">
+                            <% (1..@proyectos_size).each do |i| %>
+                            <li><%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{i}.title_completo"), :class => "strong emerald" %></li>
+                        </ol>
 
                         <% end %>
                     </div>
