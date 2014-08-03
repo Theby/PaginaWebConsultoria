@@ -24,7 +24,7 @@ class ApplicationController < ActionController::Base
   end
 
   def es_index?
-    if action_name == "index"
+    if controller_name == "welcome" and action_name == "index"
       true
     else
       false
