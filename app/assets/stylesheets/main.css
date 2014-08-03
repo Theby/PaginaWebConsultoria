@@ -244,6 +244,9 @@ body > section {
 .midnight-blue { /* Color del FOOTER : gris */;
   background-color: #0431B4;
 }
+.text-green {
+  color: #31B404;
+}
 .turquoise {
   background-color: #1abc9c;
 }

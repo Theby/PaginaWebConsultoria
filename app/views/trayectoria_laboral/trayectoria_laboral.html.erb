@@ -23,7 +23,7 @@
         <section id="portfolio" class="gris">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <h2><%= t('trayectoria_laboral.segmentacion.organizacional') %></h2>
                         <ol>
                             <li><%= link_to t('trayectoria_laboral.area_11.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "11", :proyectos_size => 1), :class => "strong" %></li>
@@ -47,7 +47,7 @@
                             <li><%= link_to t('trayectoria_laboral.area_16.title'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "16", :proyectos_size => 1),:class => "strong" %></li>
                         </ol><!--/#portfolio-filter-->
                     </div>
-                    <div>
+                    <div class="col-md-8">
                         <h2><%= t("trayectoria_laboral.area_#{@num_area}.title") %></h2>
                         <p align="justify"><%= t("trayectoria_laboral.area_#{@num_area}.descripcion") %></p>
 
@@ -56,7 +56,7 @@
                         <h2><%= t("trayectoria_laboral.proyectos") %></h2>
                         <ol type="I">
                             <% (1..@proyectos_size).each do |i| %>
-                                <li style="emerald"><%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{i}.title_completo") %></li>
+                                <li class="text-green"><%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{i}.title_completo") %></li>
                             <% end %>
                         </ol>
 
