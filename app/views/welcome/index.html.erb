@@ -4,9 +4,22 @@
             <li data-target="#main-slider" data-slide-to="0" class="active"></li>
             <li data-target="#main-slider" data-slide-to="1"></li>
             <li data-target="#main-slider" data-slide-to="2"></li>
+            <li data-target="#main-slider" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="item active" style="background-image: url(<%= asset_path 'slider/bg1.jpg' %>)">
+            <div class="item active" style="background-image: url(<%= asset_path 'slider/bg4.jpg' %>)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="carousel-content center centered">
+                                <h2 class="animation animated-item-1" style="margin-top: 102.5px;"><%= t('welcome.imagen_1.title') %></h2>
+                                <p class="animation animated-item-2"><%= t('welcome.imagen_4.descripcion') %></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item" style="background-image: url(<%= asset_path 'slider/bg1.jpg' %>)">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">

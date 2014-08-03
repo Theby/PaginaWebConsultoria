@@ -56,6 +56,10 @@ es:
       title: 'Servicios'
       descripcion: 'Una gran cantidad de servicios para satisfacer todas las necesidades empresariales.'
       link: 'Leer Más'
+    imagen_4:
+      title: 'Consultoria'
+      descripcion: 'Somos una empresa....'
+      link:
     resumen_1:
       title: 'El mejor servicio'
       descripcion: 'Nuestra empresa brinda los mejores servicios en: Gestión Estratégica, Preparación para la Certificación ISO 9001, Gestión Estratégica, Redes de Datos y mucho más.'
