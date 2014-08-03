@@ -3,7 +3,7 @@
 	display: block;
 }
 ul.sf-menu > li > a > span.sf-sub-indicator { 
-	display: none;
+	display: inline;
 }
 
 /*** DEMO SKIN ***/
