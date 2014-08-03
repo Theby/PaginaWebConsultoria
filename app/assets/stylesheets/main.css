@@ -882,6 +882,9 @@ ul.tag-cloud li {
   padding: 20px;
   display: inline-block;
 }
+.strong {
+  font-weight: bold;
+}
 #bottom {
   color: #bdc3c7;
 }
