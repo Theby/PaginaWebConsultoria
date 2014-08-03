@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
   
   helper_method :es_trayectoria_laboral
   helper_method :es_trayectoria_laboral_privado
+  helper_method :es_index?
 
   def es_trayectoria_laboral
   	if controller_name == "trayectoria_laboral"
