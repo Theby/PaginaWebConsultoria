@@ -40,7 +40,7 @@
 	                    <li><%= link_to t('banner.home'), welcome_index_path %></li>
 
 	                    <li>
-	                        <%= link_to t('banner.funda_institu.title'), fundamentos_institucionales_fundamentos_institucionales_path, :class => "sf-with-ul" %><span class="sf-sub-indicator"> 1 </span>
+	                        <%= link_to t('banner.funda_institu.title'), fundamentos_institucionales_fundamentos_institucionales_path, :class => "sf-with-ul" %>
 	                        <ul class="dropdown-menu" style="dysplay:none;">
 	                            <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path %></li>
 	                            <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_mision_path %></li>
@@ -110,5 +110,18 @@
 	            </div>
 	        </div>
 	    </footer><!--/#footer-->
+
+	    <script>
+
+	    	jQuery(document).ready(function() {
+	    		jQuery('ul.sf-menu').superfish({
+	    			delay:       1000,                            // one second delay on mouseout
+	    			animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
+	    			speed:       'fast',                          // faster animation speed
+	    			autoArrows:  false                            // disable generation of arrow mark-up
+	    		});
+	    	});
+
+	    </script>
 	</body><!--/body--> 
 </html>
