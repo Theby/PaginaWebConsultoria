@@ -15,7 +15,15 @@ class ApplicationController < ActionController::Base
   end
 
   def es_trayectoria_laboral_privado
-    if es_trayectoria_laboral and action_name != "sector_publico" and action_name != "proyecto_1"
+    if es_trayectoria_laboral and action_name != "sector_publico"
+      true
+    else
+      false
+    end
+  end
+
+  def es_index?
+    if action_name == "index"
       true
     else
       false
