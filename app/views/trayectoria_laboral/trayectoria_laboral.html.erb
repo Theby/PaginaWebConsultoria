@@ -55,15 +55,8 @@
 
                         <h2><%= t("trayectoria_laboral.proyectos") %></h2>
                         <% (1..@proyectos_size).each do |i| %>
-                            <div class="progress">
-                                <div class="<%= class_def(i) %>" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-                                    <span>
-                                        <%= 
-                                        link_to t("trayectoria_laboral.area_#{@num_area}.proyecto_#{i}.title"), trayectoria_laboral_proyectos_path(:num_area => @num_area, :num_proyecto => i)
-                                        %>
-                                    </span>
-                                </div>
-                            </div>
+                        <p class="strong emerald"> <%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{i}.title_completo") %> </p>
+
                         <% end %>
                     </div>
                 </div>
