@@ -2,13 +2,3 @@
 .sf-menu li.sfHover > ul {
 	display: block;
 }
-
-
-/*** DEMO SKIN ***/
-.sf-menu li:hover,
-.sf-menu li.sfHover {
-	background: #0431B4;
-	/* only transition out, not in */
-	-webkit-transition: none;
-	transition: none;
-}
