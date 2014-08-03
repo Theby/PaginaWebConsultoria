@@ -56,7 +56,7 @@
                         <h2><%= t("trayectoria_laboral.proyectos") %></h2>
                         <ol type="I">
                             <% (1..@proyectos_size).each do |i| %>
-                                <li class="strong green-text"><%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{i}.title_completo") %></li>
+                                <li><%= t("trayectoria_laboral.area_#{@num_area}.proyecto_#{i}.title_completo") %></li>
                             <% end %>
                         </ol>
 
