@@ -1,4 +1,2 @@
 jQuery ->
-  $('ul.sf-menu').superfish({
-  	pathClass:  'current'
-  })
+  $('ul.sf-menu').superfish()
