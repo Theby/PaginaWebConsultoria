@@ -1,11 +1,16 @@
 class ContratanosController < ApplicationController
+
+  helper_method :num_proyectos
+
+  def num_proyectos(servicio)
+  	if servicio == 1
+  		8
+  	else
+  		0
+  	end
+  end
+
   def contratanos
   	@num_service = params[:num_service]
-
-  	if @num_service == 1
-  		@proyectos = 8
-  	else
-  		@proyectos = 0
-  	end
   end
 end
