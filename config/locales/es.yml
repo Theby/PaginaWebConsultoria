@@ -121,7 +121,7 @@ es:
         descripcion:
     area_3:
       title: 'Telecomunicaciones'
-      descripcion:
+      descripcion: 'Las telecomunicaciones representan los puentes en las redes de conectividades de transferencia y control de información como voz, imagen y datos. Nuestra asesoría en la transferencia de información y datos, la plasmamos en diferentes áreas de proyectos y servicios tales como el monitoreo satelital, la radiodifusión y la radiocomunicación.'
       proyecto_1:
         title: 'Implementación sistemas de transmisión y de enlaces de ...'
         title_completo: 'Implementación sistemas de transmisión y de enlaces de MM.OO de la red celular para BellSouth (Movistar), Norte y Sur de Chile. Proyecto R.O.C. (Rest Of Country)'
@@ -143,13 +143,6 @@ es:
       proyecto_1:
         title: 'Sistema de Comunicaciones para Proyecto ...'
         title_completo: 'Sistema de Comunicaciones para Proyecto Inmobiliario La Reserva de Chicureo'
-        descripcion:
-    area_6:
-      title:
-      descripcion:
-      proyecto_1:
-        title:
-        title_completo:
         descripcion:
     area_7:
       title: 'Real Estate'
@@ -182,7 +175,7 @@ es:
         descripcion:
     area_10:
       title: 'Gestión Estratégica'
-      descripcion:
+      descripcion: 'La globalización, la apertura de mercados y la acelerada competitividad por nuevos e innovadores productos y mercados ha llevado a las empresas a la búsqueda de herramientas eficientes y eficaces que le permitan mantenerse vigentes en el tiempo. Nuestra asesoría en éste campo se encuentra orientado a la búsqueda de la mejor utilización de sus recursos que le permitan alcanzar sus objetivos a través de una estrategia hecha a su medida sustentado en un Diagnóstico Organizacional efectivo.'
       proyecto_1:
         title: 'Desarrollo de Plan Estratégico para ...'
         title_completo: 'Desarrollo de Plan Estratégico para la empresa GPS UBICAR. S.A'
@@ -201,14 +194,14 @@ es:
         descripcion:
     area_11:
       title: 'Gestión de la Calidad'
-      descripcion:
+      descripcion: 'La dinámica de los mercados y la creciente interacción entre productores de distintas latitudes ha impulsado a las empresas a establecer estándares en sus procesos con el propósito de que exista un solo lenguaje que otorgue carácter de universal a productos y servicios de variada naturaleza. Brindamos asesoría con una mirada en una demanda cada vez más exigente con el propósito de que nuestros asesorados den satisfacción integral a sus clientes con un ahorro sustantivo en la optimización de sus procesos productivos y de gestión.'
       proyecto_1:
         title: 'Diseño e implementación de laboratorios electrónicos ...'
         title_completo: 'Diseño e implementación de laboratorios electrónicos para el mantenimiento de equipos y sistemas de telefonía en VTR Telecomunicaciones y VTR Global Com. Estándares de la Calidad de norma ISO 9001 y procedimientos de mejora continua'
         descripcion:
     area_12:
       title: 'Evaluación y Gestión de Proyectos'
-      descripcion:
+      descripcion: 'Nuestra asesoría en evaluación y gestión de proyectos se encuentra sustentada en la aplicación de las mejores herramientas y estándares que le permitirán tomar decisiones respecto de la viabilidad y oportunidad de sus proyectos. Análisis de riesgos, de costos y de sensibilidad, le permitirán emprender con bases más sólidas sus presentes y futuras inversiones.'
       proyecto_1:
         title: 'Evaluación Económica y Financiera de Proyecto de ...'
         title_completo: 'Evaluación Económica y Financiera de Proyecto de inserción en Chile de Plataforma de Gestión Logística y Administración de fuerza laboral móvil, para empresa Telrad Chile S.A'
@@ -219,7 +212,7 @@ es:
         descripcion:
     area_13:
       title: 'Energías Renovables No Convencionales'
-      descripcion:
+      descripcion: 'Una de las obligaciones más importantes de las empresas es su relación con el medio, entendiéndose con ello el entorno inmediato y el medio ambiente directo e indirecto en el que desarrollan sus actividades productivas. Asesoramos a nuestros clientes en el diseño e implementación de diferentes fuentes de energías alternativas como la Solar, Eólica y Biomasa.'
       proyecto_1:
         title: 'Implementación de Casetas de energía solar ...'
         title_completo: 'Implementación de Casetas de energía solar para sistema de monitoreo mediante LASER para faenas mineras en Minera Escondida, Antofagasta'
