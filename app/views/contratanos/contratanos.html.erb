@@ -27,21 +27,18 @@
 		    			</ol>
 		    		</div>
 		            <div class="col-md-8">
-		                <div class="center gap">
-		                    <h2><%= t("contratanos.servicios.servicio_#{@num_service}.title") %></h2>
-		                    <p align="justify"><%= t("contratanos.servicios.servicio_#{@num_service}.descripcion") %></p>
+	                    <h2><%= t("contratanos.servicios.servicio_#{@num_service}.title") %></h2>
+	                    <p align="justify"><%= t("contratanos.servicios.servicio_#{@num_service}.descripcion") %></p>
 
-		                    <hr>
+	                    <hr>
 
-		                    <h2><%= t("contratanos.servicios.proyectos_relacionados") %></h2>
+	                    <h2><%= t("contratanos.servicios.proyectos_relacionados") %></h2>
 
-		                    <ol type="I">
-		                    	<% (1..@proyectos).each do |i| %>
-                                	<li><%= t("contratanos.servicios.servicio_#{@num_service}.proyecto_#{i}.title") %></li>
-                                <% end %>
-                        	</ol> 
-
-		                </div>                
+	                    <ol type="I">
+	                    	<% (1..@proyectos).each do |i| %>
+                            	<li><%= t("contratanos.servicios.servicio_#{@num_service}.proyecto_#{i}.title") %></li>
+                            <% end %>
+                    	</ol>
 		            </div>
 		        </div>
 		    </div>
