@@ -58,7 +58,8 @@ es:
       link: 'Leer Más'
     imagen_4:
       title: 'MYS CONSULTORES'
-      descripcion: 'Soluciones Integrales'
+      descripcion_1: 'Durante el desarrollo y vida institucional de las empresas, existen instancias que requieren de la inteligencia, conocimiento y experiencia en áreas que no son parte de su leit motiv y deben en estos casos buscarlo fuera de su entorno natural. En este contexto nace la inquietud de dos amigos cuyo ejercicio de la profesión a lo largo de años de servicios en empresas de primer nivel les llevo a cumplir con importantes desafíos tecnológicos y de gestión empresarial cuya experiencia pretenden compartir a través de esta consultora con quienes requieren de este tipo de colaboración.'
+      descripcion_2: 'Les invitamos a recorrer y conocer nuestra experiencia y revisar todos los ámbitos en los cuales podemos ser gran utilidad para su empresa y organización, Bienvenidos a MS Consultores '
       link:
     resumen_1:
       title: 'El mejor servicio'
@@ -313,7 +314,7 @@ es:
       descripcion:
       servicio_1:
         title: 'Respaldo de energía en Celdas Celulares'
-        descripcion: 'Los sistemas de transmisión en telecomunicaciones requieren de sistemas que aseguren la continuidad de sus servicios. Lo asesoramos en Sistemas de respaldo de energía eléctrica en redes de telefonía celular y sistemas de telecomunicaciones en general. Balance de la Cadena de respaldo, bancos de baterías, UPS, Grupos Generadores.'
+        descripcion: 'Los sistemas de transmisión en telecomunicaciones requieren de sistemas que aseguren la continuidad de sus servicios. Lo asesoramos en el diseño e implementación de sistemas de respaldo de energía eléctrica en redes de telefonía celular y sistemas de telecomunicaciones en general. Balance de la cadena de respaldo, bancos de baterías, UPS, Grupos Generadores, etc.'
         proyecto_1:
           title: 'Implementación de sistemas de respaldo de energía en -48Vdc  y  220 Vac, para la red celular de BellSouth (Movistar), Norte y Sur de Chile. Proyecto R.O.C (Rest Of Country)'
         proyecto_2:
@@ -322,7 +323,7 @@ es:
           title: 'Implementación de mallas de tierra y sistema de protección de descarga de Pararrayos en torres de transmisión de telefonía celular.'
       servicio_2:
         title: 'Comunicaciones y Telecomunicaciones'
-        descripcion: 'Las comunicaciones y telecomunicaciones representan los puentes en las redes de conectividades de transferencia de información como voz, imagen y datos. Nuestra asesoría en la transferencia de información y datos, la plasmamos en diferentes áreas de proyectos como el monitoreo satelital, la radiodifusión y la radiocomunicación.'
+        descripcion: 'Las telecomunicaciones representan los puentes en las redes de conectividades de transferencia y control de información como voz, imagen y datos. Nuestra asesoría en la transferencia de información y datos, la plasmamos en diferentes áreas de proyectos  y servicios tales como el monitoreo satelital, la radiodifusión y la radiocomunicación.'
         proyecto_1:
           title: 'Implementación de sistema GPS para prospecciones geodésicas en Minera Tres Valles, Salamanca.'
         proyecto_2:
@@ -348,7 +349,7 @@ es:
           title: 'Implementación de sistemas Main Frame multiusuarios de tecnología Wang para el respaldo y procesamiento de datos, para diversas empresas del sector Público y Privado. BancoEstado, Chilena Consolidada Inversiones, ESSO Chile, Watts.'
       servicio_4:
         title: 'Gestión Estratégica'
-        descripcion: 'La globalización, la apertura de  mercados y la acelerada competitividad por nuevos e innovadores productos y mercados ha llevado a las empresas a la búsqueda de herramientas eficientes y eficaces que le permitan mantenerse vigentes en el tiempo. Nuestra asesoría en éste campo se encuentra orientada a la búsqueda de la mejor utilización de sus recursos que le permitan alcanzar sus objetivos a través de una estrategia hecha a su medida sustentado en un Diagnóstico Organizacional efectivo.'
+        descripcion: 'La globalización, la apertura de  mercados y la acelerada competitividad por nuevos e innovadores productos y mercados ha llevado a las empresas a la búsqueda de herramientas eficientes y eficaces que le permitan mantenerse vigentes en el tiempo. Nuestra asesoría en éste campo se encuentra orientado a la búsqueda de la mejor utilización de sus recursos que le permitan alcanzar sus objetivos a través de una estrategia hecha a su medida sustentado en un Diagnóstico Organizacional efectivo.'
         proyecto_1:
           title: 'Desarrollo de Plan Estratégico para la empresa GPS UBICAR. S.A'
         proyecto_2:
@@ -364,7 +365,7 @@ es:
           title: 'Diseño e implementación de laboratorios electrónicos para el mantenimiento de equipos y sistemas de telefonía en VTR Telecomunicaciones y VTR Global Com. estándares de la Calidad  de norma ISO 9001 y procedimientos de mejora continua'
       servicio_6:
         title: 'Energías Renovables No Convencionales'
-        descripcion: 'Una de las obligaciones más importantes de las empresas es su relación con el medio, entendiéndose con ello el entorno inmediato y el medio ambiente directo e indirecto en el que desarrollan sus actividades productivas. Asesoramos a nuestros clientes en el diseño e implementación de diferentes fuentes de energías alternativas como Termopaneles, Solar, Eólica y Biomasa.'
+        descripcion: 'Una de las obligaciones más importantes de las empresas es su relación con el medio, entendiéndose con ello el entorno inmediato y el medio ambiente directo e indirecto en el que desarrollan sus actividades productivas. Asesoramos a nuestros clientes en el diseño e implementación de diferentes fuentes de energías alternativas como la Solar, Eólica y Biomasa.'
         proyecto_1:
           title: 'Implementación de Casetas de energía  solar para sistema de monitoreo mediante LASER para faenas mineras en Minera Escondida, Antofagasta'
         proyecto_2:
