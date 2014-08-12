@@ -314,30 +314,84 @@ es:
       servicio_1:
         title: 'Respaldo de energía en Celdas Celulares'
         descripcion: 'Los sistemas de transmisión en telecomunicaciones requieren de sistemas que aseguren la continuidad de sus servicios. Lo asesoramos en Sistemas de respaldo de energía eléctrica en redes de telefonía celular y sistemas de telecomunicaciones en general. Balance de la Cadena de respaldo, bancos de baterías, UPS, Grupos Generadores.'
+        proyecto_1:
+          title: 'Implementación de sistemas de respaldo de energía en -48Vdc  y  220 Vac, para la red celular de BellSouth (Movistar), Norte y Sur de Chile. Proyecto R.O.C (Rest Of Country)'
+        proyecto_2:
+          title: 'Implementación de sistemas de respaldo de energía en -48 Vdc y 220 Vac de la red celular de CLARO S.A. (Chilesat PCS), Norte y Sur de Chile.'
+        proyecto_3:
+          title: 'Implementación de mallas de tierra y sistema de protección de descarga de Pararrayos en torres de transmisión de telefonía celular.'
       servicio_2:
         title: 'Comunicaciones y Telecomunicaciones'
         descripcion: 'Las comunicaciones y telecomunicaciones representan los puentes en las redes de conectividades de transferencia de información como voz, imagen y datos. Nuestra asesoría en la transferencia de información y datos, la plasmamos en diferentes áreas de proyectos como el monitoreo satelital, la radiodifusión y la radiocomunicación.'
+        proyecto_1:
+          title: 'Implementación de sistema GPS para prospecciones geodésicas en Minera Tres Valles, Salamanca.'
+        proyecto_2:
+          title: 'Desmontaje estaciones bases y centro de control sistema localización por radiofrecuencia para Gallyas Telecomunicaciones.'
+        proyecto_3:
+          title: 'Instalación, puesta en marcha y operación de estaciones base y centro de control sistema localización por radiofrecuencia para Gallyas Telecomunicaciones'
+        proyecto_4:
+          title: 'Implementación y puesta en marcha de equipos de estudio, estaciones transmisoras de 10KW y 5KW en Radio Minería AM y Radio Camelot FM respectivamente en la ciudad de Punta Arenas. Levantamiento de torres de transmisión, instalación de antenas de difusión y de radioenlace, junto a sistema de telemetría y comando remoto.'
+        proyecto_5:
+          title: 'Estudio, supervisión y traslado Planta Transmisora de Radio Nuevo Mundo de Santiago'
+        proyecto_6:
+          title: 'Implementación de sistemas de transmisión y de enlaces de MM.OO de la red celular de CLARO S.A. (Chilesat PCS), Norte y Sur de Chile. Vestidura eléctrica y de señalización de las torres de transmisión'
+        proyecto_7:
+          title: 'Implementación sistemas de transmisión y de enlaces de MM.OO de la red celular para BellSouth (Movistar), Norte y Sur de Chile. Proyecto R.O.C. (Rest Of Country). Vestidura eléctrica y de señalización de las torres de transmisión de 24m a 80m'
+        proyecto_8:
+          title: 'Sistema de Comunicaciones internas para Proyecto Inmobiliario La Reserva de Chicureo'
+        proyecto_9:
+          title: 'Sistema de Control y Comunicaciones para el Trasporte de Acido Sulfúrico TRANSAP – Codelco,  Div. El Teniente'
       servicio_3:
         title: 'Sistemas Informáticos'
         descripcion: 'Nuestra asesoría en Redes de datos, Data Center, Sistemas Informáticos, Cableado Estructurado, Redes Wi Fi, Implementación de Redes Computacionales, cuenta con el respaldo de expertos en sus diferentes fases de implementación, que lo asesorarán de manera integral.'
+        proyecto_1:
+          title: 'Implementación de sistemas Main Frame multiusuarios de tecnología Wang para el respaldo y procesamiento de datos, para diversas empresas del sector Público y Privado. BancoEstado, Chilena Consolidada Inversiones, ESSO Chile, Watts.'
       servicio_4:
         title: 'Gestión Estratégica'
         descripcion: 'La globalización, la apertura de  mercados y la acelerada competitividad por nuevos e innovadores productos y mercados ha llevado a las empresas a la búsqueda de herramientas eficientes y eficaces que le permitan mantenerse vigentes en el tiempo. Nuestra asesoría en éste campo se encuentra orientada a la búsqueda de la mejor utilización de sus recursos que le permitan alcanzar sus objetivos a través de una estrategia hecha a su medida sustentado en un Diagnóstico Organizacional efectivo.'
+        proyecto_1:
+          title: 'Desarrollo de Plan Estratégico para la empresa GPS UBICAR. S.A'
+        proyecto_2:
+          title: 'Diagnostico Organizacional y Estratégico para empresa POSITRON LTDA'
+        proyecto_3:
+          title: 'Estudio de Mercado para sistema de localización por radiofrecuencia para Gallyas Telecomunicaciones'
+        proyecto_4:
+          title: 'Desarrollo de Plan de Negocio para Telrad Chile S.A. para su nueva Unidad Estratégica de Negocios, Officetrack. Estudio de Mercado, captación de prospectos, Plan de Marketing, Plan de Ventas, estudio y definición de precios, desarrollo de Propuesta Comercial'
       servicio_5:
         title: 'Gestión de la Calidad. Preparación para la Certificación ISO 9001'
         descripcion: 'La dinámica de los mercados y la creciente interacción entre productores de distintas latitudes ha impulsado a las empresas a establecer estándares en sus procesos con el propósito de que exista un solo lenguaje que otorgue carácter de universal a productos y servicios de variada naturaleza. Brindamos asesoría con una mirada en una demanda cada vez más exigente con el propósito de que nuestros  asesorados den satisfacción integral a sus clientes con un ahorro sustantivo en la optimización de sus procesos productivos y de gestión.'
+        proyecto_1:
+          title: 'Diseño e implementación de laboratorios electrónicos para el mantenimiento de equipos y sistemas de telefonía en VTR Telecomunicaciones y VTR Global Com. estándares de la Calidad  de norma ISO 9001 y procedimientos de mejora continua'
       servicio_6:
         title: 'Energías Renovables No Convencionales'
         descripcion: 'Una de las obligaciones más importantes de las empresas es su relación con el medio, entendiéndose con ello el entorno inmediato y el medio ambiente directo e indirecto en el que desarrollan sus actividades productivas. Asesoramos a nuestros clientes en el diseño e implementación de diferentes fuentes de energías alternativas como Termopaneles, Solar, Eólica y Biomasa.'
+        proyecto_1:
+          title: 'Implementación de Casetas de energía  solar para sistema de monitoreo mediante LASER para faenas mineras en Minera Escondida, Antofagasta'
+        proyecto_2:
+          title: 'Desarrollo de sistemas de energía fotovoltaica móvil para comunicaciones en prospecciones de  terreno de Minera Escondida'
       servicio_7:
         title: 'Evaluación y Gestión de Proyectos'
         descripcion: 'Nuestra asesoría en evaluación y gestión de proyectos se encuentra sustentada en la aplicación de las mejores herramientas y estándares que le permitirán tomar decisiones respecto de la viabilidad y oportunidad de sus proyectos. Análisis de riesgos, de costos y de sensibilidad, le permitirán emprender con bases más sólidas sus presentes y futuras inversiones.'
+        proyecto_1:
+          title: 'Evaluación Económica y Financiera de Proyecto de inserción en Chile de Plataforma de Gestión Logística y Administración de fuerza laboral móvil, para empresa Telrad Chile S.A.'
+        proyecto_2:
+          title: 'Evaluación Económica y Financiera para proyecto Tributo a Michael Jackson de productora musical y de eventos  Arte y Sonido Producciones'
       servicio_8:
         title: 'Evaluación y Gestión de Sitios red Celular'
         descripcion: 'Nuestra asesoría en Site Survey, Real Estate, evaluación y gestión de sitios para red celular, contempla todas las fases de la investigación técnica y administrativa, así como también las operaciones de puesta en marcha. La búsqueda de nuevos puntos de instalaciones, su medición radioeléctrica y su viabilidad operacional, son aspectos fundamentales antes del inicio de las obras civiles OO.CC que supervisamos, informando a nuestros clientes los estados de avance de cada proyecto.'
+        proyecto_1:
+          title: 'Supervisión construcción estaciones bases plan expansión nacional de Bellsouth Comunicaciones. Levantamiento de torres de transmisión desde 24m, hasta 80m en ciudad y cerros. Fundaciones, gestión de contratistas, construcción e instalación de Shelter. Construcción de cercos perimetrales'
+        proyecto_2:
+          title: 'Gestión de colocalización y real estate para empresas de telefonía celular y telecomunicaciones'
+        proyecto_3:
+          title: 'Estudio y prospección de nuevos puntos geográficos de interés para la instalación de estaciones celulares para BelSouth Comunicaciones (Movistar) y Chilesat PCS  (CLARO). Medición del espectro radioeléctrico, definición de servidumbres de paso y servidumbre eléctrica. Estudios de Cobertura con Predict Plan y desarrollo de perfiles de radioenlaces de MM.OO'
+        proyecto_4:
+          title: 'Estudio de cobertura y selección de sitios para construcción de estaciones de telefonía celular para AJ Ingenieros. Definición de perfiles de radioenlaces de MM.OO y análisis de cobertura. Análisis del espectro radioeléctrico para la viabilidad de nuevas frecuencias por sector'
       servicio_9:
         title: 'Videovigilancia'
         descripcion: 'Monitoreo, Control, Supervisión remota. Contamos con un equipo de expertos en ésta área tecnológica de la seguridad y control que lo asesorarán durante todo el proceso relacional, poniendo a su servicio toda su experiencia y conocimientos en el área. Tipo y configuraciones de equipos a la medida de sus requerimientos.'
+        proyecto_1:
+          title: 'Proyecto de diseño, dimensionamiento e implementación de red de monitoreo remoto con video cámaras, para el control y seguridad de un sector de la comuna de la Municipalidad de Providencia'
       proyectos_relacionados: 'Proyectos Relacionados'
   contactanos:
     title: 'Contáctanos'
