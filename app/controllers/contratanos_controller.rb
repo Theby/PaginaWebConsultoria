@@ -4,7 +4,7 @@ class ContratanosController < ApplicationController
 
   	@proyectos = 1
 
-  	if num_service == 1
+  	if action_name == "contratanos?num_service=1"
   		@proyectos = 3
   	end
   end
