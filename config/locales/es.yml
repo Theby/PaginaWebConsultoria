@@ -108,7 +108,7 @@ es:
         title_completo: ' Diseño e implementación de laboratorios electrónicos para el mantenimiento de equipos y sistemas de telefonía en VTR Telecomunicaciones y VTR Global Com'
         descripcion:
     area_2:
-      title: 'Radiodifusión'
+      title: 'Radiodiofusión'
       descripcion:
       proyecto_1:
         title: 'Implementación y puesta en marcha de Radio Minería AM y ...'
@@ -180,7 +180,7 @@ es:
         title_completo: 'Implementación de sistema GPS para prospecciones geodésicas en Minera Tres Valles, Salamanca'
         descripcion:
     area_10:
-      title: 'Gestión Organizacional'
+      title: 'Gestión Estratégica'
       descripcion:
       proyecto_1:
         title: 'Desarrollo de Plan Estratégico para ...'
@@ -263,7 +263,7 @@ es:
     historia:
       title: 'Historia'
       sub_title: 'Años de experiencia'
-      descripcion: 'Los Ingenieros Consultores han venido desarrollando actividades desde 1998 en diferentes proyectos, brindado asesoría fundamentalmente en el sector industrial de Telecomunicaciones y otras, juntos o en forma independiente. En el año 2014 se implementa formalmente la Sociedad de Consultoría orientada a las áreas de Gestión Organizacional e Ingeniería Tecnológica.'
+      descripcion: 'Los Ingenieros Consultores han venido desarrollando actividades desde 1998 en diferentes proyectos, brindado asesoría fundamentalmente en el sector  industrial de Telecomunicaciones y otros, juntos o en forma independiente. En el año 2014 se implementa formalmente la Sociedad de Consultoría orientada a las áreas de Gestión Organizacional e Ingeniería Tecnológica.'
     miembros:
       title: 'Miembros de la Consultoría'
       descripcion: 'Para ver un resumen laboral de cada uno de los integrantes seleccione uno de los avatares a continuación.'
@@ -271,7 +271,7 @@ es:
       miembro_1:
         nombre: 'Charles R. Montefusco Sánchez'
         cargo: 'Socio Fundador'
-        resumen: 'Ingeniero Civil Industrial, Licenciado en Ciencias de la Ingeniería, Ingeniero Electrónico, Magister en Ingeniería Industrial mención Gestión. Ingeniería de la Calidad. Diplomado en Evaluación de Proyectos.'
+        resumen: 'Ingeniero Civil Industrial, mención Gestión; Licenciado en Ciencias de la Ingeniería; Magister en Ingeniería Industrial; Ingeniero Electrónico; Postítulo en Ingeniería de la Calidad; Diplomado en Evaluación de Proyectos.'
         link_1: 
           title: 'Perfil profesional en LinkedIn'
           descripcion: 'Curriculum Vitae Online'
@@ -280,7 +280,7 @@ es:
       miembro_2:
         nombre: 'Fernando Salas Martínez'
         cargo: 'Socio Fundador'
-        resumen: 'Ingeniero Civil Electricista, Licenciado en Ciencias de la Ingeniería, Analista de Sistemas, Diplomado en Administración de Empresas.'
+        resumen: 'Ingeniero Civil Electricista, mención Electrónica y Telecomunicaciones; Licenciado en Ciencias de la Ingeniería, Analista de Sistemas, Diplomado en Administración de Empresas.'
         link_1:
           title: 'Perfil profesional en LinkedIn'
           descripcion: 'Curriculum Vitae Online'
@@ -312,35 +312,32 @@ es:
       sub_title: 'Todos los servicios que podemos ofrecer'
       descripcion:
       servicio_1:
-        title: 'Asesoría en Desarrollo de Proyectos de Ingeniería en Telecomunicaciones'
-        descripcion:
+        title: 'Respaldo de energía en Celdas Celulares'
+        descripcion: 'Los sistemas de transmisión en telecomunicaciones requieren de sistemas que aseguren la continuidad de sus servicios. Lo asesoramos en Sistemas de respaldo de energía eléctrica en redes de telefonía celular y sistemas de telecomunicaciones en general. Balance de la Cadena de respaldo, bancos de baterías, UPS, Grupos Generadores.'
       servicio_2:
-        title: 'Redes de datos'
-        descripcion:
+        title: 'Comunicaciones y Telecomunicaciones'
+        descripcion: 'Las comunicaciones y telecomunicaciones representan los puentes en las redes de conectividades de transferencia de información como voz, imagen y datos. Nuestra asesoría en la transferencia de información y datos, la plasmamos en diferentes áreas de proyectos como el monitoreo satelital, la radiodifusión y la radiocomunicación.'
       servicio_3:
-        title: 'Redes de Radioenlaces MM.OO'
-        descripcion:
+        title: 'Sistemas Informáticos'
+        descripcion: 'Nuestra asesoría en Redes de datos, Data Center, Sistemas Informáticos, Cableado Estructurado, Redes Wi Fi, Implementación de Redes Computacionales, cuenta con el respaldo de expertos en sus diferentes fases de implementación, que lo asesorarán de manera integral.'
       servicio_4:
         title: 'Gestión Estratégica'
-        descripcion: 
+        descripcion: 'La globalización, la apertura de  mercados y la acelerada competitividad por nuevos e innovadores productos y mercados ha llevado a las empresas a la búsqueda de herramientas eficientes y eficaces que le permitan mantenerse vigentes en el tiempo. Nuestra asesoría en éste campo se encuentra orientada a la búsqueda de la mejor utilización de sus recursos que le permitan alcanzar sus objetivos a través de una estrategia hecha a su medida sustentado en un Diagnóstico Organizacional efectivo.'
       servicio_5:
-        title: 'Diagnóstico Organizacional'
-        descripcion:
+        title: 'Gestión de la Calidad. Preparación para la Certificación ISO 9001'
+        descripcion: 'La dinámica de los mercados y la creciente interacción entre productores de distintas latitudes ha impulsado a las empresas a establecer estándares en sus procesos con el propósito de que exista un solo lenguaje que otorgue carácter de universal a productos y servicios de variada naturaleza. Brindamos asesoría con una mirada en una demanda cada vez más exigente con el propósito de que nuestros  asesorados den satisfacción integral a sus clientes con un ahorro sustantivo en la optimización de sus procesos productivos y de gestión.'
       servicio_6:
-        title: 'Gestión de la Calidad'
-        descripcion:
-      servicio_7:
-        title: 'Preparación para la Certificación ISO 9001'
-        descripcion:
-      servicio_8:
-        title: 'Respaldo de energía en sistemas de telecomunicaciones'
-        descripcion:
-      servicio_9:
         title: 'Energías Renovables No Convencionales'
-        descripcion:
-      servicio_10:
-        title: 'Evaluación de Proyectos'
-        descripcion:
+        descripcion: 'Una de las obligaciones más importantes de las empresas es su relación con el medio, entendiéndose con ello el entorno inmediato y el medio ambiente directo e indirecto en el que desarrollan sus actividades productivas. Asesoramos a nuestros clientes en el diseño e implementación de diferentes fuentes de energías alternativas como Termopaneles, Solar, Eólica y Biomasa.'
+      servicio_7:
+        title: 'Evaluación y Gestión de Proyectos'
+        descripcion: 'Nuestra asesoría en evaluación y gestión de proyectos se encuentra sustentada en la aplicación de las mejores herramientas y estándares que le permitirán tomar decisiones respecto de la viabilidad y oportunidad de sus proyectos. Análisis de riesgos, de costos y de sensibilidad, le permitirán emprender con bases más sólidas sus presentes y futuras inversiones.'
+      servicio_8:
+        title: 'Evaluación y Gestión de Sitios red Celular'
+        descripcion: 'Nuestra asesoría en Site Survey, Real Estate, evaluación y gestión de sitios para red celular, contempla todas las fases de la investigación técnica y administrativa, así como también las operaciones de puesta en marcha. La búsqueda de nuevos puntos de instalaciones, su medición radioeléctrica y su viabilidad operacional, son aspectos fundamentales antes del inicio de las obras civiles OO.CC que supervisamos, informando a nuestros clientes los estados de avance de cada proyecto.'
+      servicio_9:
+        title: 'Videovigilancia'
+        descripcion: 'Monitoreo, Control, Supervisión remota. Contamos con un equipo de expertos en ésta área tecnológica de la seguridad y control que lo asesorarán durante todo el proceso relacional, poniendo a su servicio toda su experiencia y conocimientos en el área. Tipo y configuraciones de equipos a la medida de sus requerimientos.'
   contactanos:
     title: 'Contáctanos'
     sub_title: 'Envíanos un mensaje con tus opiniones'
