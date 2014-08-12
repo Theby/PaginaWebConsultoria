@@ -22,7 +22,7 @@
 		    			<h2><%= t('contratanos.title') %></h2>
 		    			<ol>
 		    				<% (1..9).each do |i| %>
-                        		<li><%= link_to t("contratanos.servicios.servicio_#{i}.title"), contratanos_contratanos_path(:num_service => "#{i}") %></li>
+                        		<li><%= link_to t("contratanos.servicios.servicio_#{i}.title"), contratanos_contratanos_path(:num_service => "#{i}"), :class => "strong" %></li>
 	                        <% end %>
 		    			</ol>
 		    		</div>
@@ -32,6 +32,12 @@
 		                    <p align="justify"><%= t("contratanos.servicios.servicio_#{@num_service}.descripcion") %></p>
 
 		                    <hr>
+
+		                    <h2><%= t("contratanos.servicios.proyectos_relacionados") %></h2>
+
+		                    <ol type="I">
+                                <li><%= t("contratanos.servicios.servicio_#{@num_service}.proyecto_#{@proyectos}") %></li>
+                        	</ol> 
 
 		                </div>                
 		            </div>
