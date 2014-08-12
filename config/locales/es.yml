@@ -57,8 +57,8 @@ es:
       descripcion: 'Una gran cantidad de servicios para satisfacer todas las necesidades empresariales.'
       link: 'Leer Más'
     imagen_4:
-      title: 'Consultoria'
-      descripcion: 'Somos una empresa....'
+      title: 'MYS CONSULTORES'
+      descripcion: 'Soluciones Integrales'
       link:
     resumen_1:
       title: 'El mejor servicio'
@@ -144,11 +144,11 @@ es:
         title_completo: 'Sistema de Comunicaciones para Proyecto Inmobiliario La Reserva de Chicureo'
         descripcion:
     area_6:
-      title: 'Co-localización'
+      title:
       descripcion:
       proyecto_1:
         title:
-        title_completo: 'Sin proyectos actualmente'
+        title_completo:
         descripcion:
     area_7:
       title: 'Real Estate'
@@ -322,7 +322,7 @@ es:
         descripcion:
       servicio_4:
         title: 'Gestión Estratégica'
-        descripcion:
+        descripcion: 
       servicio_5:
         title: 'Diagnóstico Organizacional'
         descripcion:
