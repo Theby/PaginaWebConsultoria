@@ -36,8 +36,8 @@
 		                    <h2><%= t("contratanos.servicios.proyectos_relacionados") %></h2>
 
 		                    <ol type="I">
-		                    	<% (1..num_proyectos(@num_service)).each do |i| %>
-                                	<li><%= t("contratanos.servicios.servicio_#{@num_service}.proyecto_#{i}") %></li>
+		                    	<% (1..@proyectos).each do |i| %>
+                                	<li><%= t("contratanos.servicios.servicio_#{@num_service}.proyecto_#{@i}") %></li>
                                 <% end %>
                         	</ol> 
 
