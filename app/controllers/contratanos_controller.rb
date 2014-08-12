@@ -4,9 +4,9 @@ class ContratanosController < ApplicationController
 
   def num_proyectos(servicio)
   	if servicio == 1
-  		8
+  		return 8
   	else
-  		0
+  		return 0
   	end
   end
 
