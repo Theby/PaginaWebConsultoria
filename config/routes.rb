@@ -7,9 +7,6 @@ Rails.application.routes.draw do
   get 'contactanos/contactanos'
 
 
-  get 'contratanos/contratanos'
-
-
   # Rutas a las vistas Quienes Somos
   get 'sobre_nosotros/sobre_nosotros'
   get 'sobre_nosotros/miembros'

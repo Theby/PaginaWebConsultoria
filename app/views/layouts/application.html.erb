@@ -64,15 +64,6 @@
 	                            <li><%= link_to t('banner.trayec_laboral.sector_privado'), trayectoria_laboral_trayectoria_laboral_path(:num_area => "1", :proyectos_size => 1) %></li>
 	                        </ul>
 	                    </li>
-
-	                    <li> <!-- Servicios -->
-	                        <%= link_to t('banner.contratanos.title'), contratanos_contratanos_path(:num_service => "1") %>
-	                        <ul class="dropdown-menu">
-	                        	<% (1..9).each do |i| %>
-	                        		<li><%= link_to t("contratanos.servicios.servicio_#{i}.title"), contratanos_contratanos_path(:num_service => "#{i}") %></li>
-		                        <% end %>
-	                        </ul>
-	                    </li>
 	                    
 	                    <li><%= link_to t('banner.contactanos'), contactanos_contactanos_path %></li>
 	                </ul>

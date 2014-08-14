@@ -30,7 +30,7 @@ es:
       vision: 'Visión'
       valores: 'Valores'
     trayec_laboral:
-      title: 'Proyectos'
+      title: 'Servicios'
       sector_publico: 'Sector Público'
       sector_privado: 'Sector Privado'
     sobre_nosotros:
@@ -93,8 +93,8 @@ es:
       sub_title: 'Lo que más valoramos'
       descripcion_1: 'Honestidad y transparencia en el desarrollo de las consultorías. Probidad en las acciones y compromisos. Lealtad y confidencialidad para nuestros clientes.'
   trayectoria_laboral:
-    title: 'Proyectos'
-    sub_title: 'Áreas y proyectos en los que hemos participado'
+    title: 'Servicios'
+    sub_title: 'Áreas, servicios y proyectos en los que hemos participado'
     proyectos: 'Proyectos'
     sector_publico: 'Sector Público'
     sector_privado: 'Sector Privado'
