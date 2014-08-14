@@ -99,7 +99,7 @@ es:
     sector_publico: 'Sector Público'
     sector_privado: 'Sector Privado'
     segmentacion:
-      organizacional: 'Área Gestión Organizacional'
+      organizacional: 'Área Empresarial'
       tecnologias: 'Área Tecnológica'
     area_1:
       title: 'Electrónica'
@@ -370,22 +370,6 @@ es:
           title: 'Evaluación Económica y Financiera de Proyecto de inserción en Chile de Plataforma de Gestión Logística y Administración de fuerza laboral móvil, para empresa Telrad Chile S.A.'
         proyecto_2:
           title: 'Evaluación Económica y Financiera para proyecto Tributo a Michael Jackson de productora musical y de eventos  Arte y Sonido Producciones'
-      servicio_8:
-        title: 'Evaluación y Gestión de Sitios red Celular'
-        descripcion: 'Nuestra asesoría en Site Survey, Real Estate, evaluación y gestión de sitios para red celular, contempla todas las fases de la investigación técnica y administrativa, así como también las operaciones de puesta en marcha. La búsqueda de nuevos puntos de instalaciones, su medición radioeléctrica y su viabilidad operacional, son aspectos fundamentales antes del inicio de las obras civiles OO.CC que supervisamos, informando a nuestros clientes los estados de avance de cada proyecto.'
-        proyecto_1:
-          title: 'Supervisión construcción estaciones bases plan expansión nacional de Bellsouth Comunicaciones. Levantamiento de torres de transmisión desde 24m, hasta 80m en ciudad y cerros. Fundaciones, gestión de contratistas, construcción e instalación de Shelter. Construcción de cercos perimetrales'
-        proyecto_2:
-          title: 'Gestión de colocalización y real estate para empresas de telefonía celular y telecomunicaciones'
-        proyecto_3:
-          title: 'Estudio y prospección de nuevos puntos geográficos de interés para la instalación de estaciones celulares para BelSouth Comunicaciones (Movistar) y Chilesat PCS  (CLARO). Medición del espectro radioeléctrico, definición de servidumbres de paso y servidumbre eléctrica. Estudios de Cobertura con Predict Plan y desarrollo de perfiles de radioenlaces de MM.OO'
-        proyecto_4:
-          title: 'Estudio de cobertura y selección de sitios para construcción de estaciones de telefonía celular para AJ Ingenieros. Definición de perfiles de radioenlaces de MM.OO y análisis de cobertura. Análisis del espectro radioeléctrico para la viabilidad de nuevas frecuencias por sector'
-      servicio_9:
-        title: 'Videovigilancia'
-        descripcion: 'Monitoreo, Control, Supervisión remota. Contamos con un equipo de expertos en ésta área tecnológica de la seguridad y control que lo asesorarán durante todo el proceso relacional, poniendo a su servicio toda su experiencia y conocimientos en el área. Tipo y configuraciones de equipos a la medida de sus requerimientos.'
-        proyecto_1:
-          title: 'Proyecto de diseño, dimensionamiento e implementación de red de monitoreo remoto con video cámaras, para el control y seguridad de un sector de la comuna de la Municipalidad de Providencia'
       proyectos_relacionados: 'Proyectos Relacionados'
   contactanos:
     title: 'Contáctanos'
