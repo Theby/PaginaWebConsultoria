@@ -309,7 +309,7 @@ es:
       privado: 'Sector Privado'
       none: 'Actualmente no existen servicios en este sector.'
       servicio_1:
-        title: 'Respaldo de energía en Celdas Celulares'
+        title: 'Energía de Respaldo (Backup de Energía)'
         descripcion: 'Los sistemas de transmisión en telecomunicaciones requieren de sistemas que aseguren la continuidad de sus servicios. Lo asesoramos en el diseño e implementación de sistemas de respaldo de energía eléctrica en redes de telefonía celular y sistemas de telecomunicaciones en general. Balance de la cadena de respaldo, bancos de baterías, UPS, Grupos Generadores, etc.'
         proyecto_1:
           title: 'Implementación de sistemas de respaldo de energía en -48Vdc  y  220 Vac, para la red celular de BellSouth (Movistar), Norte y Sur de Chile. Proyecto R.O.C (Rest Of Country)'
@@ -318,7 +318,7 @@ es:
         proyecto_3:
           title: 'Implementación de mallas de tierra y sistema de protección de descarga de Pararrayos en torres de transmisión de telefonía celular.'
       servicio_2:
-        title: 'Comunicaciones y Telecomunicaciones'
+        title: 'Telecomunicaciones'
         descripcion: 'Las telecomunicaciones representan los puentes en las redes de conectividades de transferencia y control de información como voz, imagen y datos. Nuestra asesoría en la transferencia de información y datos, la plasmamos en diferentes áreas de proyectos  y servicios tales como el monitoreo satelital, la radiodifusión y la radiocomunicación.'
         proyecto_1:
           title: 'Implementación de sistema GPS para prospecciones geodésicas en Minera Tres Valles, Salamanca.'
