@@ -305,6 +305,8 @@ es:
       title: 'Servicios'
       sub_title: 'Todos los servicios que podemos ofrecer'
       descripcion:
+      publico: 'Sector Público'
+      privado: 'Sector Privado'
       servicio_1:
         title: 'Respaldo de energía en Celdas Celulares'
         descripcion: 'Los sistemas de transmisión en telecomunicaciones requieren de sistemas que aseguren la continuidad de sus servicios. Lo asesoramos en el diseño e implementación de sistemas de respaldo de energía eléctrica en redes de telefonía celular y sistemas de telecomunicaciones en general. Balance de la cadena de respaldo, bancos de baterías, UPS, Grupos Generadores, etc.'
