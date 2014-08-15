@@ -27,86 +27,94 @@
 				  </div>
 				  <div id="collapseOne1" class="panel-collapse collapse">
 				    <div class="panel-body"> <!-- Cuerpo del Inicio -->
-				        <div class="panel panel-default">
-				          <div class="panel-heading">
-				            <h4 class="panel-title"> <!-- Titulo de los Fundamentos Institucionales -->
-				              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
-				                <%= t('banner.funda_institu.title') %> <i class="icon-angle-down"></i>
-				              </a>
-				            </h4>
-				          </div>
-				          <div id="collapseOne2" class="panel-collapse collapse">
-				            <div class="panel-body"> <!-- Cuerpo de los Fundamentos Institucionales -->
-				            	<ul>
-					                <li><%= t('banner.funda_institu.objetivos') %></li>
-					                <li><%= t('banner.funda_institu.mision') %></li>
-					                <li><%= t('banner.funda_institu.vision') %></li>
-					                <li><%= t('banner.funda_institu.valores') %></li>
-					            </ul>
-				            </div>
-				          </div>
-				        </div>
+				    	<ul>
+				    		<li>
+				    			<%= link_to t('banner.home'), welcome_index_path %>
+				    		</li>
+					        <li>
+					        	<div class="panel panel-default">
+						          <div class="panel-heading">
+						            <h4 class="panel-title"> <!-- Titulo de los Fundamentos Institucionales -->
+						              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
+						                <%= t('banner.funda_institu.title') %> <i class="icon-angle-down"></i>
+						              </a>
+						            </h4>
+						          </div>
+						          <div id="collapseOne2" class="panel-collapse collapse">
+						            <div class="panel-body"> <!-- Cuerpo de los Fundamentos Institucionales -->
+						            	<ul>
+							                <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "objetivos") %></li>
+							                <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "mision") %></li>
+							                <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "vision") %></li>
+							                <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "valores") %></li>
+							            </ul>
+						            </div>
+						          </div>
+						        </div>
+						    </li>
+						    <li>
+						        <div class="panel panel-default">
+						          <div class="panel-heading">
+						            <h4 class="panel-title"> <!-- Titulo de Quienes Somos -->
+						              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3">
+						                <%= t('banner.sobre_nosotros.title') %> <i class="icon-angle-down"></i>
+						              </a>
+						            </h4>
+						          </div>
+						          <div id="collapseOne3" class="panel-collapse collapse">
+						            <div class="panel-body"> <!-- Cuerpo de Quienes Somos -->
+						            	<ul>
+						                	<li><%= link_to t('banner.sobre_nosotros.historia'), sobre_nosotros_sobre_nosotros_path %></li>
+							                <li><div class="panel panel-default">
+							                  <div class="panel-heading">
+							                    <h4 class="panel-title"> <!-- Titulo de Miembros -->
+							                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4">
+							                        <%= t('banner.sobre_nosotros.miembros') %> <i class="icon-angle-down"></i>
+							                      </a>
+							                    </h4>
+							                  </div>
+							                  <div id="collapseOne4" class="panel-collapse collapse">
+							                    <div class="panel-body"> <!-- Cuerpo de Miembros -->
+							                    	<ul>
+								                        <li><%= link_to t('sobre_nosotros.miembros.miembro_1.nombre'), sobre_nosotros_charlesmontefusco_path %></li>
+								                        <li><%= link_to t('sobre_nosotros.miembros.miembro_2.nombre'), sobre_nosotros_fernandosalas_path %></li>
+							                    	</ul>
+							                    </div>
+							                  </div>
+							                </div></li>
+							            </ul>
+						            </div>
+						          </div>
+						        </div>
+						    </li>
 
 
-				        <div class="panel panel-default">
-				          <div class="panel-heading">
-				            <h4 class="panel-title"> <!-- Titulo de Quienes Somos -->
-				              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3">
-				                <%= t('banner.sobre_nosotros.title') %> <i class="icon-angle-down"></i>
-				              </a>
-				            </h4>
-				          </div>
-				          <div id="collapseOne3" class="panel-collapse collapse">
-				            <div class="panel-body"> <!-- Cuerpo de Quienes Somos -->
-				            	<ul>
-				                	<li><%= t('banner.sobre_nosotros.historia') %></li>
-					                <li><div class="panel panel-default">
-					                  <div class="panel-heading">
-					                    <h4 class="panel-title"> <!-- Titulo de Miembros -->
-					                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapseOne4">
-					                        <%= t('banner.sobre_nosotros.miembros') %> <i class="icon-angle-down"></i>
-					                      </a>
-					                    </h4>
-					                  </div>
-					                  <div id="collapseOne4" class="panel-collapse collapse">
-					                    <div class="panel-body"> <!-- Cuerpo de Miembros -->
-					                    	<ul>
-						                        <li><%= t('sobre_nosotros.miembros.miembro_1.nombre') %></li>
-						                        <li><%= t('sobre_nosotros.miembros.miembro_2.nombre') %></li>
-					                    	</ul>
-					                    </div>
-					                  </div>
-					                </div></li>
-					            </ul>
-				            </div>
-				          </div>
-				        </div>
+					        <div class="panel panel-default">
+					          <div class="panel-heading">
+					            <h4 class="panel-title"> <!-- Titulo de Servicios -->
+					              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
+					                <%= t('banner.trayec_laboral.title') %> <i class="icon-angle-down"></i>
+					              </a>
+					            </h4>
+					          </div>
+					          <div id="collapseOne5" class="panel-collapse collapse">
+					            <div class="panel-body"> <!-- Cuerpo de Servicios -->
+					            	<ul>
+					            	    <li><%= link_to t('contratanos.servicios.servicio_1.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => "3") %></li>
+					            	    <li><%= link_to t('contratanos.servicios.servicio_2.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "2", :proyectos_priv_size => "9") %></li>
+					            	    <li><%= link_to t('contratanos.servicios.servicio_3.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "3", :proyectos_priv_size => "1") %></li>
+					            	    <li><%= link_to t('contratanos.servicios.servicio_4.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "4", :proyectos_priv_size => "4") %></li>
+					            	    <li><%= link_to t('contratanos.servicios.servicio_5.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "5", :proyectos_priv_size => "1") %></li>
+					            	    <li><%= link_to t('contratanos.servicios.servicio_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "6", :proyectos_priv_size => "2") %></li>
+					            	    <li><%= link_to t('contratanos.servicios.servicio_7.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "7", :proyectos_priv_size => "2") %></li>
+					            	</ul>
+					            </div>
+					          </div>
+					        </div>
 
 
-				        <div class="panel panel-default">
-				          <div class="panel-heading">
-				            <h4 class="panel-title"> <!-- Titulo de Servicios -->
-				              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
-				                <%= t('banner.trayec_laboral.title') %> <i class="icon-angle-down"></i>
-				              </a>
-				            </h4>
-				          </div>
-				          <div id="collapseOne5" class="panel-collapse collapse">
-				            <div class="panel-body"> <!-- Cuerpo de Servicios -->
-				            	<ul>
-				            	    <li><%= link_to t('contratanos.servicios.servicio_1.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => "3") %></li>
-				            	    <li><%= link_to t('contratanos.servicios.servicio_2.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "2", :proyectos_priv_size => "9") %></li>
-				            	    <li><%= link_to t('contratanos.servicios.servicio_3.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "3", :proyectos_priv_size => "1") %></li>
-				            	    <li><%= link_to t('contratanos.servicios.servicio_4.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "4", :proyectos_priv_size => "4") %></li>
-				            	    <li><%= link_to t('contratanos.servicios.servicio_5.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "5", :proyectos_priv_size => "1") %></li>
-				            	    <li><%= link_to t('contratanos.servicios.servicio_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "6", :proyectos_priv_size => "2") %></li>
-				            	    <li><%= link_to t('contratanos.servicios.servicio_7.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "7", :proyectos_priv_size => "2") %></li>
-				            	</ul>
-				            </div>
-				          </div>
-				        </div>
 
-
+					    </ul>
 				    </div>
 				  </div>
 				</div>
