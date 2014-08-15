@@ -5,10 +5,12 @@
                 <h1><%= t('funda_institu.title') %></h1>
                 <p><%= t('funda_institu.sub_title') %></p>
                 <ul class="breadcrumb pull-left">
-                  <li class="active"><%= t('funda_institu.objetivos.title') %></li>
-                  <li><%= link_to t('funda_institu.mision.title'), fundamentos_institucionales_mision_path %></li>
-                  <li><%= link_to t('funda_institu.vision.title'), fundamentos_institucionales_vision_path %></li>
-                  <li><%= link_to t('funda_institu.valores.title'), fundamentos_institucionales_valores_path %></li>
+                  <% if @nombre == "objetivos" %>
+                      <li class="active"><%= t('funda_institu.objetivos.title') %></li>
+                      <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "mision") %></li>
+                      <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "vision") %></li>
+                      <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "valores") %></li>
+                  <% end %>
                 </ul>
               </div>
               <div class="col-sm-6">
@@ -30,6 +32,8 @@
             <p align="justify"><%= t("funda_institu.#{@nombre}.descripcion_1") %></p>
 
             <hr>
+
+            
 
           </div>
         </section><!-- /fundamentos_institucionales -->
