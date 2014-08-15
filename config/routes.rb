@@ -18,9 +18,7 @@ Rails.application.routes.draw do
 
   # Rutas a las vistas de Proyectos
   get 'trayectoria_laboral/trayectoria_laboral'
-  get 'trayectoria_laboral/sector_publico'
-  get 'trayectoria_laboral/proyectos'
-
+  
 
   # Rutas a los fundamentos institucionales
   get 'fundamentos_institucionales/fundamentos_institucionales' #tiene los objetivos

@@ -28,7 +28,7 @@
                                 <h2 class="animation animated-item-1" style="margin-top: 102.5px;"><%= t('welcome.imagen_1.title') %></h2>
                                 <p class="animation animated-item-2"><%= t('welcome.imagen_1.descripcion') %></p>
                                 <br>
-                                <%= link_to t('welcome.imagen_1.link'), trayectoria_laboral_trayectoria_laboral_path, :class => "btn btn-md animation animated-item-3" %>
+                                <%= link_to t('welcome.imagen_1.link'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => 1), :class => "btn btn-md animation animated-item-3" %>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                                 <h2 class="animation animated-item-1" style="margin-top: 102.5px;"><%= t('welcome.imagen_2.title') %></h2>
                                 <p class="animation animated-item-2"><%= t('welcome.imagen_2.descripcion') %></p>
                                 <br>
-                                <%= link_to t('welcome.imagen_2.link'), trayectoria_laboral_sector_publico_path, :class => "btn btn-md animation animated-item-3" %>
+                                <%= link_to t('welcome.imagen_2.link'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => 1), :class => "btn btn-md animation animated-item-3" %>
                             </div>
                         </div>
                     </div>
@@ -79,12 +79,12 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <%= link_to image_tag('slider/ico1.png'), trayectoria_laboral_sector_publico_path %>
+                        <%= link_to image_tag('slider/ico1.png'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => 1) %>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading"><%= t('welcome.resumen_1.title') %></h3>
                         <p align="justify"><%= t('welcome.resumen_1.descripcion') %></p>
-                        <p><%= link_to t('welcome.resumen_1.link'), trayectoria_laboral_sector_publico_path %></p>
+                        <p><%= link_to t('welcome.resumen_1.link'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => 1) %></p>
                     </div>
                 </div>
             </div><!--/.col-md-4-->
