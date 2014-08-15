@@ -10,6 +10,21 @@
                       <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "mision") %></li>
                       <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "vision") %></li>
                       <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "valores") %></li>
+                  <% elsif @nombre == "mision" %>
+                      <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "objetivos") %></li>
+                      <li class="active"><%= t('banner.funda_institu.mision') %></li>
+                      <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "vision") %></li>
+                      <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "valores") %></li>
+                  <% elsif @nombre == "vision" %>
+                      <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "objetivos") %></li>
+                      <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "mision") %></li>
+                      <li class="active"><%= t('banner.funda_institu.vision') %></li>
+                      <li><%= link_to t('banner.funda_institu.valores'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "valores") %></li>
+                  <% elsif @nombre == "valores" %>
+                      <li><%= link_to t('banner.funda_institu.objetivos'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "objetivos") %></li>
+                      <li><%= link_to t('banner.funda_institu.mision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "mision") %></li>
+                      <li><%= link_to t('banner.funda_institu.vision'), fundamentos_institucionales_fundamentos_institucionales_path(:nombre => "vision") %></li>
+                      <li class="active"><%= t('banner.funda_institu.valores') %></li>
                   <% end %>
                 </ul>
               </div>
@@ -33,7 +48,7 @@
 
             <hr>
 
-            
+
 
           </div>
         </section><!-- /fundamentos_institucionales -->
