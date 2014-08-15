@@ -35,7 +35,7 @@
                             <li><%= link_to t('contratanos.servicios.servicio_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "6", :proyectos_priv_size => "2"), :class => "strong" %></li>
                         </ol><!--/#portfolio-filter-->
 
-                        <%= link_to image_tag('html/servicios/servicio_1.jpg'), sobre_nosotros_charlesmontefusco_path, :class => 'img-responsive img-thumbnail' %>
+                        <%= link_to image_tag("html/servicios/servicio_#{@num_servicio}.jpg"), sobre_nosotros_charlesmontefusco_path, :class => 'img-responsive img-thumbnail' %>
 
 
                     </div> <!-- Menu Izquierdo -->
