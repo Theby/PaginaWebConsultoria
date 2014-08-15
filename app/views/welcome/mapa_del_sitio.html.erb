@@ -26,7 +26,6 @@
 				    </h4>
 				  </div>
 				  <div id="collapseOne1" class="panel-collapse collapse">
-
 				    <div class="panel-body"> <!-- Cuerpo del Inicio -->
 				        <div class="panel panel-default">
 				          <div class="panel-heading">
@@ -38,10 +37,12 @@
 				          </div>
 				          <div id="collapseOne2" class="panel-collapse collapse">
 				            <div class="panel-body"> <!-- Cuerpo de los Fundamentos Institucionales -->
-				                <%= t('banner.funda_institu.objetivos') %>
-				                <%= t('banner.funda_institu.mision') %>
-				                <%= t('banner.funda_institu.vision') %>
-				                <%= t('banner.funda_institu.valores') %>
+				            	<ul>
+					                <li><%= t('banner.funda_institu.objetivos') %></li>
+					                <li><%= t('banner.funda_institu.mision') %></li>
+					                <li><%= t('banner.funda_institu.vision') %></li>
+					                <li><%= t('banner.funda_institu.valores') %></li>
+					            </ul>
 				            </div>
 				          </div>
 				        </div>
@@ -56,11 +57,32 @@
 				          </div>
 				          <div id="collapseOne3" class="panel-collapse collapse">
 				            <div class="panel-body"> <!-- Cuerpo de Quienes Somos -->
-				                <%= t('banner.sobre_nosotros.historia') %>
-				                <%= t('banner.sobre_nosotros.miembros') %>
+				            	<ul>
+				                	<li><%= t('banner.sobre_nosotros.historia') %></li>
+					                <li><div class="panel panel-default">
+					                  <div class="panel-heading">
+					                    <h4 class="panel-title"> <!-- Titulo de Miembros -->
+					                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseOne3">
+					                        <%= t('banner.sobre_nosotros.miembros') %> <i class="icon-angle-down"></i>
+					                      </a>
+					                    </h4>
+					                  </div>
+					                  <div id="collapseOne3" class="panel-collapse collapse">
+					                    <div class="panel-body"> <!-- Cuerpo de Miembros -->
+					                    	<ul>
+						                        <li><%= t('sobre_nosotros.miembros.miembro_1.nombre') %></li>
+						                        <li><%= t('sobre_nosotros.miembros.miembro_2.nombre') %></li>
+					                    	</ul>
+					                    </div>
+					                  </div>
+					                </div></li>
+					            </ul>
 				            </div>
 				          </div>
 				        </div>
+
+
+
 				    </div>
 				  </div>
 				</div>
