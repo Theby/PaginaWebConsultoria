@@ -17,9 +17,9 @@ class TrayectoriaLaboralController < ApplicationController
 
   def trayectoria_laboral
     @num_servicio = params[:num_servicio]
-    @proyectos_size = params[:proyectos_size]
+    @proyectos_priv_size = params[:proyectos_priv_size]
 
-    @proyectos_size = @proyectos_size.to_i
+    @proyectos_priv_size = @proyectos_priv_size.to_i
   end
 
   def sector_publico

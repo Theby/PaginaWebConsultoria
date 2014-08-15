@@ -22,17 +22,17 @@
                     <div class="col-md-4">
                         <h2><%= t('trayectoria_laboral.segmentacion.organizacional') %></h2>
                         <ol>
-                            <li><%= link_to t('contratanos.servicios.servicio_5.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "5", :proyectos_size => "1"), :class => "strong" %></li>
-                            <li><%= link_to t('contratanos.servicios.servicio_7.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "7", :proyectos_size => "2"), :class => "strong" %></li>
-                            <li><%= link_to t('contratanos.servicios.servicio_4.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "4", :proyectos_size => "4"), :class => "strong" %></li>
+                            <li><%= link_to t('contratanos.servicios.servicio_5.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "5", :proyectos_priv_size => "1"), :class => "strong" %></li>
+                            <li><%= link_to t('contratanos.servicios.servicio_7.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "7", :proyectos_priv_size => "2"), :class => "strong" %></li>
+                            <li><%= link_to t('contratanos.servicios.servicio_4.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "4", :proyectos_priv_size => "4"), :class => "strong" %></li>
                         </ol>
 
                         <h2><%= t('trayectoria_laboral.segmentacion.tecnologias') %></h2>
                         <ol>
-                            <li><%= link_to t('contratanos.servicios.servicio_1.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_size => "3"), :class => "strong" %></li>
-                            <li><%= link_to t('contratanos.servicios.servicio_2.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "2", :proyectos_size => "9"), :class => "strong" %></li>
-                            <li><%= link_to t('contratanos.servicios.servicio_3.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "3", :proyectos_size => "1"), :class => "strong" %></li>
-                            <li><%= link_to t('contratanos.servicios.servicio_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "6", :proyectos_size => "2"), :class => "strong" %></li>
+                            <li><%= link_to t('contratanos.servicios.servicio_1.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => "3"), :class => "strong" %></li>
+                            <li><%= link_to t('contratanos.servicios.servicio_2.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "2", :proyectos_priv_size => "9"), :class => "strong" %></li>
+                            <li><%= link_to t('contratanos.servicios.servicio_3.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "3", :proyectos_priv_size => "1"), :class => "strong" %></li>
+                            <li><%= link_to t('contratanos.servicios.servicio_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "6", :proyectos_priv_size => "2"), :class => "strong" %></li>
                         </ol><!--/#portfolio-filter-->
                     </div> <!-- Menu Izquierdo -->
                     <div class="col-md-8">
@@ -56,7 +56,7 @@
                                   <div id="collapseOne1" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <ol type="I">
-                                            <% (1..@proyectos_size).each do |i| %>
+                                            <% (1..@proyectos_priv_size).each do |i| %>
                                                 <li><%= t("contratanos.servicios.servicio_#{@num_servicio}.proyecto_#{i}.title") %></li>
                                             <% end %>
                                         </ol>
