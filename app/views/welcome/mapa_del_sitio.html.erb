@@ -2,13 +2,13 @@
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-sm-6">
-		                <h1>Portfolio</h1>
-		                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+		                <h1><%=  t('mapa_del_sitio.title') %></h1>
+		                <p><%=  t('mapa_del_sitio.sub_title') %></p>
 		            </div>
 		            <div class="col-sm-6">
 		                <ul class="breadcrumb pull-right">
-		                    <li><a href="index.html">Home</a></li>
-		                    <li class="active">Portfolio</li>
+		                	<li><%=  link_to t('banner.home'), welcome_index_path %></li>
+		                	<li class="active"><%=  t('mapa_del_sitio.title') %></li>
 		                </ul>
 		            </div>
 		        </div>
@@ -17,7 +17,32 @@
 
 		<section class="gris">
 			<div class="container">
-				<h1>About Us</h1>
-				<p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h4 class="panel-title">
+				      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+				        testing1 <i class="icon-angle-down"></i>
+				      </a>
+				    </h4>
+				  </div>
+				  <div id="collapseOne1" class="panel-collapse collapse">
+				    <div class="panel-body">
+				        <div class="panel panel-default">
+				          <div class="panel-heading">
+				            <h4 class="panel-title">
+				              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2">
+				                testing 2 <i class="icon-angle-down"></i>
+				              </a>
+				            </h4>
+				          </div>
+				          <div id="collapseOne2" class="panel-collapse collapse">
+				            <div class="panel-body">
+				                Hola
+				            </div>
+				          </div>
+				        </div>
+				    </div>
+				  </div>
+				</div>
 			</div>
 		</section>
