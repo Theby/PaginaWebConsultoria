@@ -87,33 +87,36 @@
 						          </div>
 						        </div>
 						    </li>
-
-
-					        <div class="panel panel-default">
-					          <div class="panel-heading">
-					            <h4 class="panel-title"> <!-- Titulo de Servicios -->
-					              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
-					                <%= t('banner.trayec_laboral.title') %> <i class="icon-angle-down"></i>
-					              </a>
-					            </h4>
-					          </div>
-					          <div id="collapseOne5" class="panel-collapse collapse">
-					            <div class="panel-body"> <!-- Cuerpo de Servicios -->
-					            	<ul>
-					            	    <li><%= link_to t('contratanos.servicios.servicio_1.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => "3") %></li>
-					            	    <li><%= link_to t('contratanos.servicios.servicio_2.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "2", :proyectos_priv_size => "9") %></li>
-					            	    <li><%= link_to t('contratanos.servicios.servicio_3.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "3", :proyectos_priv_size => "1") %></li>
-					            	    <li><%= link_to t('contratanos.servicios.servicio_4.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "4", :proyectos_priv_size => "4") %></li>
-					            	    <li><%= link_to t('contratanos.servicios.servicio_5.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "5", :proyectos_priv_size => "1") %></li>
-					            	    <li><%= link_to t('contratanos.servicios.servicio_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "6", :proyectos_priv_size => "2") %></li>
-					            	    <li><%= link_to t('contratanos.servicios.servicio_7.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "7", :proyectos_priv_size => "2") %></li>
-					            	</ul>
-					            </div>
-					          </div>
-					        </div>
-
-
-
+						    <li>
+						        <div class="panel panel-default">
+						          <div class="panel-heading">
+						            <h4 class="panel-title"> <!-- Titulo de Servicios -->
+						              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseOne5">
+						                <%= t('banner.trayec_laboral.title') %> <i class="icon-angle-down"></i>
+						              </a>
+						            </h4>
+						          </div>
+						          <div id="collapseOne5" class="panel-collapse collapse">
+						            <div class="panel-body"> <!-- Cuerpo de Servicios -->
+						            	<ul>
+						            	    <li><%= link_to t('contratanos.servicios.servicio_1.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "1", :proyectos_priv_size => "3") %></li>
+						            	    <li><%= link_to t('contratanos.servicios.servicio_2.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "2", :proyectos_priv_size => "9") %></li>
+						            	    <li><%= link_to t('contratanos.servicios.servicio_3.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "3", :proyectos_priv_size => "1") %></li>
+						            	    <li><%= link_to t('contratanos.servicios.servicio_4.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "4", :proyectos_priv_size => "4") %></li>
+						            	    <li><%= link_to t('contratanos.servicios.servicio_5.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "5", :proyectos_priv_size => "1") %></li>
+						            	    <li><%= link_to t('contratanos.servicios.servicio_6.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "6", :proyectos_priv_size => "2") %></li>
+						            	    <li><%= link_to t('contratanos.servicios.servicio_7.title'), trayectoria_laboral_trayectoria_laboral_path(:num_servicio => "7", :proyectos_priv_size => "2") %></li>
+						            	</ul>
+						            </div>
+						          </div>
+						        </div>
+						    </li>
+						    <li>
+						    	<%= link_to t('banner.contactanos'), contactanos_contactanos_path %>
+						    </li>
+						    <li>
+						    	<%= link_to t('banner.mapa_sitio'), welcome_mapa_del_sitio_path %>
+						    </li>
 					    </ul>
 				    </div>
 				  </div>
