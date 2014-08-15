@@ -1,19 +1,69 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Página empresarial de consultoria">
-      <meta name="author" content="Esteban Gaete Flores">
-      <title> Página no encontrada - 404</title>
-  </head><!--/head-->  
+<html>
+<head>
+  <title>La Página solicitada no existe - 404</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  body {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
 
+  div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
 
-  <body>
-    <section id="error" class="container">
-        <h1>404, Page not found</h1>
-        <p>The Page you are looking for doesn't exist or an other error occurred.</p>
-        <a class="btn btn-success" href="index.html">GO BACK TO THE HOMEPAGE</a>
-    </section><!--/#error-->
-  </body><!--/body--> 
+  div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body>
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>Error 404</h1>
+      <h2>La página solicitada no existe</h2>
+      <p>La dirección ha sido mal escrita o la página ha sido movida.</p>
+      <a href="index.html">Volver al INDEX</a>
+    </div>
+    <p>Si eres el dueño de esta aplicación revisa el log para más información.</p>
+  </div>
+</body>
 </html>
