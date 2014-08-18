@@ -20,6 +20,8 @@ class TrayectoriaLaboralController < ApplicationController
     @proyectos_priv_size = params[:proyectos_priv_size]
 
     @proyectos_priv_size = @proyectos_priv_size.to_i
+
+    @area = params[:area]
   end
 
   def sector_publico
