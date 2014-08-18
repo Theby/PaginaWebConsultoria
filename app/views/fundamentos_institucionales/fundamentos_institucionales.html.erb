@@ -48,88 +48,88 @@
 
             <hr>
 
+            <section id="main-slider" class="no-margin">
+                <div class="carousel slide wet-asphalt">
+                  <% if @nombre == "objetivos" %>
+                    <ol class="carousel-indicators">
+                        <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#main-slider" data-slide-to="1"></li>
+                        <li data-target="#main-slider" data-slide-to="2"></li>
+                        <li data-target="#main-slider" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen1.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen2.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen3.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen4.jpg' %>)">
+                        </div><!--/.item-->
+                    </div><!--/.carousel-inner-->
+                  <% elsif @nombre == "mision" %>
+                    <ol class="carousel-indicators">
+                      <li data-target="#main-slider" data-slide-to="0"></li>
+                      <li data-target="#main-slider" data-slide-to="1" class="active"></li>
+                      <li data-target="#main-slider" data-slide-to="2"></li>
+                      <li data-target="#main-slider" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen1.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item active" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen2.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen3.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen4.jpg' %>)">
+                        </div><!--/.item-->
+                    </div><!--/.carousel-inner-->
+                  <% elsif @nombre == "vision" %>
+                    <ol class="carousel-indicators">
+                      <li data-target="#main-slider" data-slide-to="0"></li>
+                      <li data-target="#main-slider" data-slide-to="1"></li>
+                      <li data-target="#main-slider" data-slide-to="2" class="active"></li>
+                      <li data-target="#main-slider" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen1.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen2.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item active" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen3.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen4.jpg' %>)">
+                        </div><!--/.item-->
+                    </div><!--/.carousel-inner-->
+                  <% elsif @nombre == "valores" %>
+                    <ol class="carousel-indicators">
+                      <li data-target="#main-slider" data-slide-to="0"></li>
+                      <li data-target="#main-slider" data-slide-to="1"></li>
+                      <li data-target="#main-slider" data-slide-to="2"></li>
+                      <li data-target="#main-slider" data-slide-to="3" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen1.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen2.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen3.jpg' %>)">
+                        </div><!--/.item-->
+                        <div class="item active" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen4.jpg' %>)">
+                        </div><!--/.item-->
+                    </div><!--/.carousel-inner-->
+                  <% end %>
+                </div><!--/.carousel-->
+                <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+                    <i class="icon-angle-left"></i>
+                </a>
+                <a class="next hidden-xs" href="#main-slider" data-slide="next">
+                    <i class="icon-angle-right"></i>
+                </a>
+            </section><!--/#main-slider-->
+            
           </div>
         </section><!-- /fundamentos_institucionales -->
-
-        <section id="main-slider" class="no-margin">
-            <div class="carousel slide wet-asphalt">
-              <% if @nombre == "objetivos" %>
-                <ol class="carousel-indicators">
-                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                    <li data-target="#main-slider" data-slide-to="1"></li>
-                    <li data-target="#main-slider" data-slide-to="2"></li>
-                    <li data-target="#main-slider" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen1.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen2.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen3.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen4.jpg' %>)">
-                    </div><!--/.item-->
-                </div><!--/.carousel-inner-->
-              <% elsif @nombre == "mision" %>
-                <ol class="carousel-indicators">
-                  <li data-target="#main-slider" data-slide-to="0"></li>
-                  <li data-target="#main-slider" data-slide-to="1" class="active"></li>
-                  <li data-target="#main-slider" data-slide-to="2"></li>
-                  <li data-target="#main-slider" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen1.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item active" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen2.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen3.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen4.jpg' %>)">
-                    </div><!--/.item-->
-                </div><!--/.carousel-inner-->
-              <% elsif @nombre == "vision" %>
-                <ol class="carousel-indicators">
-                  <li data-target="#main-slider" data-slide-to="0"></li>
-                  <li data-target="#main-slider" data-slide-to="1"></li>
-                  <li data-target="#main-slider" data-slide-to="2" class="active"></li>
-                  <li data-target="#main-slider" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen1.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen2.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item active" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen3.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen4.jpg' %>)">
-                    </div><!--/.item-->
-                </div><!--/.carousel-inner-->
-              <% elsif @nombre == "valores" %>
-                <ol class="carousel-indicators">
-                  <li data-target="#main-slider" data-slide-to="0"></li>
-                  <li data-target="#main-slider" data-slide-to="1"></li>
-                  <li data-target="#main-slider" data-slide-to="2"></li>
-                  <li data-target="#main-slider" data-slide-to="3" class="active"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen1.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen2.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen3.jpg' %>)">
-                    </div><!--/.item-->
-                    <div class="item active" style="background-image: url(<%= asset_path 'html/slider/fundamentos/imagen4.jpg' %>)">
-                    </div><!--/.item-->
-                </div><!--/.carousel-inner-->
-              <% end %>
-            </div><!--/.carousel-->
-            <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-                <i class="icon-angle-left"></i>
-            </a>
-            <a class="next hidden-xs" href="#main-slider" data-slide="next">
-                <i class="icon-angle-right"></i>
-            </a>
-        </section><!--/#main-slider-->
 
         <section id="career" class="gris">
           <div class="container">
