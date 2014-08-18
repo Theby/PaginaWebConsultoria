@@ -27,5 +27,6 @@ class TrayectoriaLaboralController < ApplicationController
       @area = "1"
       @num_servicio = "1"
       @proyectos_priv_size = 3
+    end
   end
 end
