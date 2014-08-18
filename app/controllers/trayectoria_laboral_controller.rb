@@ -24,7 +24,7 @@ class TrayectoriaLaboralController < ApplicationController
     @area = params[:area]
 
     if @area == nil or @num_servicio == nil or @proyectos_priv_size == nil
-      @area = "1"
+      @area = "2"
       @num_servicio = "1"
       @proyectos_priv_size = 3
     end
