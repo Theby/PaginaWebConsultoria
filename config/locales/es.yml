@@ -309,7 +309,7 @@ es:
       privado: 'Sector Privado'
       none: 'Actualmente no existen servicios en este sector.'
       servicio_1:
-        title: 'Energía de Respaldo (Backup de Energía)'
+        title: 'Energía de Respaldo'
         descripcion: 'Los sistemas de transmisión en telecomunicaciones requieren de sistemas que aseguren la continuidad de sus servicios. Lo asesoramos en el diseño e implementación de sistemas de respaldo de energía eléctrica en redes de telefonía celular y sistemas de telecomunicaciones en general. Balance de la cadena de respaldo, bancos de baterías, UPS, Grupos Generadores, etc.'
         proyecto_1:
           title: 'Implementación de sistemas de respaldo de energía en -48Vdc  y  220 Vac, para la red celular de BellSouth (Movistar), Norte y Sur de Chile. Proyecto R.O.C (Rest Of Country)'
