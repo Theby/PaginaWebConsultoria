@@ -22,8 +22,10 @@ class TrayectoriaLaboralController < ApplicationController
     @proyectos_priv_size = @proyectos_priv_size.to_i
 
     @area = params[:area]
-  end
 
-  def sector_publico
+    if @area == nil or @num_servicio == nil or @proyectos_priv_size == nil
+      @area = "1"
+      @num_servicio = "1"
+      @proyectos_priv_size = 3
   end
 end
