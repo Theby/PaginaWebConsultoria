@@ -36,7 +36,7 @@ es:
     sobre_nosotros:
       title: 'Quienes Somos'
       historia: 'Historia'
-      miembros: 'Miembros'
+      miembros: 'Socios Consultores'
     contratanos:
       title: 'Servicios'
       datos_contacto: 'Datos de Contacto'
@@ -46,15 +46,15 @@ es:
   welcome:
     imagen_1:
       title: 'Proyectos en el sector privado'
-      descripcion: 'Gran variedad de proyectos en diferentes áreas, desde Electrónica hasta Gestión de Proyectos.'
+      descripcion: 'Proyectos en diferentes áreas, desde Electrónica hasta Gestión de Proyectos.'
       link: 'Leer Más'
     imagen_2:
       title: 'Proyecto en el sector público'
-      descripcion: 'Gran variedad de proyectos para el sector público.'
+      descripcion: 'Respuesta dinámca y ajustada a requerimientos licitados.'
       link: 'Leer Más'
     imagen_3:
       title: 'Servicios'
-      descripcion: 'Una gran cantidad de servicios para satisfacer todas las necesidades empresariales.'
+      descripcion: 'Satisfacción de de una variada gama de necesidades empresariales.'
       link: 'Leer Más'
     imagen_4:
       title: 'MYS CONSULTORES'
@@ -64,11 +64,11 @@ es:
     resumen_1:
       title: 'El mejor servicio'
       descripcion: 'Nuestra empresa brinda los mejores servicios en: Gestión Estratégica, Preparación para la Certificación ISO 9001, Gestión Empresarial, Informática y mucho más.'
-      link: 'Ver todos los servicios'
+      link: 'Ver servicios'
     resumen_2:
       title: 'Grandes Proyectos'
       descripcion: 'Nuestra empresa ha participado en grandes proyectos como: Implementación de sistemas Main Frame de tecnología Wang para el respaldo y procesamiento de datos, Implementación de sistema GPS para prospecciones geodésicas y muchos más.'
-      link: 'Ver más proyectos'
+      link: 'Ver proyectos'
     resumen_3:
       title: 'Contáctanos'
       descripcion: 'Contáctanos directamente ante cualquier duda que no puedas satisfacer navegando por esta página.'
@@ -103,13 +103,13 @@ es:
       tecnologias: 'Área Tecnológica'
   sobre_nosotros:
     title: 'Quienes Somos'
-    sub_title: 'Nuestra historia y nuestros miembros'
+    sub_title: 'Nuestra historia'
     historia:
       title: 'Historia'
       sub_title: 'Años de experiencia'
       descripcion: 'Los Ingenieros Consultores han venido desarrollando actividades desde 1998 en diferentes proyectos, brindado asesoría fundamentalmente en el sector  industrial de Telecomunicaciones y otros, juntos o en forma independiente. En el año 2014 se implementa formalmente la Sociedad de Consultoría orientada a las áreas de Gestión Organizacional e Ingeniería Tecnológica.'
     miembros:
-      title: 'Miembros de la Consultoría'
+      title: 'Socios Consultores'
       descripcion: 'Para ver un resumen laboral de cada uno de los integrantes seleccione uno de los avatares a continuación.'
       title_resumen: 'Resumen Laboral'
       miembro_1:
