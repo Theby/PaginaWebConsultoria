@@ -248,7 +248,10 @@ body > section {
 .emerald { /* Color de los titulos : verde */
   background-color: #31B404;
 }
-.midnight-blue { /* Color del FOOTER : gris */;
+.gris{ /* Color del fondo : gris */;
+  background-color: #BDBD88;
+}
+.midnight-blue {
   background-color: #0431B4;
 }
 .green-text {
@@ -310,9 +313,6 @@ body > section {
 }
 .asbestos {
   background-color: #7f8c8d;
-}
-.gris{
-  background-color: #BDBD88;
 }
 .embed-container {
   position: relative;
