@@ -1,46 +1,26 @@
 PaginaWebConsultoria
 ====================
 
-Página web para una Empresa de Consultoría. De modo que sea posible manejar todo el sistema de negocio desde esta página.
+Página Web para una consultoria, comprendé varias áreas, servicios y proyectos
 
 Está página está desarrollada en:
-- Ruby: 2.1.2
-- Ruby on Rails: 4.1.1
+- Ruby: 2.1.2v
+- Ruby on Rails: 4.1.1v
 
-Se encuentra bajo la GNU GENERAL PUBLIC LICENSE Version 2, así que es de libre distribución y modificación.
+Ádemas hace uso de:
 
+- Bootstrap 3.0v
+- Superfish (Rails) 1.6.0v
 
 Autor:
 Esteban Gaete Flores
-Ingeniero Civil Informático
+Estudiante de Ingeniería Civil Informática
 esteban.gaete@usach.cl
 
+El proyecto de RoR está configurado con PostgreSQL, sin embargo no existe una base de datos.
 
-== README
+Está página es libre de editar según se desee.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+El template original de la página esta basado en:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+http://shapebootstrap.net/demo/html/flat_theme/index.html
