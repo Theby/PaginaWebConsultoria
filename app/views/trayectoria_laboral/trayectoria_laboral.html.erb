@@ -51,12 +51,12 @@
                         <!-- <%= link_to image_tag("html/servicios/servicio_#{@num_servicio}.jpg"), trayectoria_laboral_trayectoria_laboral_path(:area => @area, :num_servicio => @num_servicio, :proyectos_priv_size => @proyectos_priv_size), :class => 'img-responsive img-thumbnail' %> -->
 
                         <!-- Cinta de Imagenes -->
-                        <section id="main-slider" class="no-margin">
+                        <section id="slider-servicio" class="no-margin">
                             <div class="carousel slide wet-asphalt">
                                 <ol class="carousel-indicators">
-                                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                                    <li data-target="#main-slider" data-slide-to="1"></li>
-                                    <li data-target="#main-slider" data-slide-to="2"></li>
+                                    <li data-target="#slider-servicio" data-slide-to="0" class="active"></li>
+                                    <li data-target="#slider-servicio" data-slide-to="1"></li>
+                                    <li data-target="#slider-servicio" data-slide-to="2"></li>
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="item active" style="background-image: url(<%= asset_path "html/servicios/servicio_#{@num_servicio}/servicio_#{@num_servicio}_1.jpg" %>)">
@@ -67,10 +67,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+                            <a class="prev hidden-xs" href="#slider-servicio" data-slide="prev">
                                 <i class="icon-angle-left"></i>
                             </a>
-                            <a class="next hidden-xs" href="#main-slider" data-slide="next">
+                            <a class="next hidden-xs" href="#slider-servicio" data-slide="next">
                                 <i class="icon-angle-right"></i>
                             </a>
                         </section>

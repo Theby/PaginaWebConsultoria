@@ -17,6 +17,23 @@ jQuery(function($) {
 		});
 	});
 
+	//#slider-servicio
+	$(function(){
+		$('#slider-servicio.carousel').carousel({
+			interval: 8000
+		});
+	});
+
+	$( '.centered' ).each(function( e ) {
+		$(this).css('margin-top',  ($('#slider-servicio').height() - $(this).height())/2);
+	});
+
+	$(window).resize(function(){
+		$( '.centered' ).each(function( e ) {
+			$(this).css('margin-top',  ($('#slider-servicio').height() - $(this).height())/2);
+		});
+	});
+
 	//portfolio
 	$(window).load(function(){
 		$portfolio_selectors = $('.portfolio-filter >li>a');
