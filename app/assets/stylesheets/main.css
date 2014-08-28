@@ -353,7 +353,7 @@ body > section {
 #main-slider .carousel .btn:hover, #slider-servicio .carousel .btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-#main-slider .carousel .boxed {
+#main-slider .carousel .boxed, #slider-servicio .carousel .boxed {
   padding: 10px 15px;
   background-color: rgba(0, 0, 0, 0.8);
   display: inline-block;
