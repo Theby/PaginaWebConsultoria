@@ -338,22 +338,27 @@ body > section {
   width: 100%;
   height: 100%;
 }
-#main-slider, #slider-servicio {
+#main-slider, 
+#slider-servicio {
   position: relative;
 }
-#main-slider .carousel h2 {
+#main-slider .carousel h2,
+#slider-servicio .carousel h2 {
   font-size: 36px;
 }
-#main-slider .carousel .btn, #slider-servicio .carousel .btn {
+#main-slider .carousel .btn, 
+#slider-servicio .carousel .btn {
   border: 3px solid rgba(255, 255, 255, 0.5);
   color: #fff;
   border-radius: 0;
   margin-top: 5px;
 }
-#main-slider .carousel .btn:hover, #slider-servicio .carousel .btn:hover {
+#main-slider .carousel .btn:hover, 
+#slider-servicio .carousel .btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-#main-slider .carousel .boxed, #slider-servicio .carousel .boxed {
+#main-slider .carousel .boxed, 
+#slider-servicio .carousel .boxed {
   padding: 10px 15px;
   background-color: rgba(0, 0, 0, 0.8);
   display: inline-block;
@@ -374,11 +379,13 @@ body > section {
   -o-transition: opacity ease-in-out 500ms;
   transition: opacity ease-in-out 500ms;
 }
-#main-slider .carousel .item:first-child {
+#main-slider .carousel .item:first-child, 
+#slider-servicio .carousel .item:first-child {
   top: auto;
   position: relative;
 }
-#main-slider .carousel .item.active {
+#main-slider .carousel .item.active, 
+#slider-servicio .carousel .item.active {
   opacity: 1;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
@@ -387,7 +394,9 @@ body > section {
   z-index: 1;
 }
 #main-slider .prev,
-#main-slider .next {
+#main-slider .next,
+#slider-servicio .prev,
+#slider-servicio .next {
   position: absolute;
   top: 50%;
   background-color: rgba(0, 0, 0, 0.3);
@@ -403,38 +412,46 @@ body > section {
   z-index: 5;
 }
 #main-slider .prev:hover,
-#main-slider .next:hover {
+#main-slider .next:hover,
+#slider-servicio .prev:hover,
+#slider-servicio .next:hover {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
-#main-slider .prev {
+#main-slider .prev,
+#slider-servicio .prev {
   left: 10px;
 }
-#main-slider .next {
+#main-slider .next,
+#slider-servicio .next {
   right: 10px;
 }
-#main-slider .active .animation.animated-item-1 {
+#main-slider .active .animation.animated-item-1,
+#slider-servicio .active .animation.animated-item-1 {
   -webkit-animation: fadeInUp 300ms linear 300ms both;
   -moz-animation: fadeInUp 300ms linear 300ms both;
   -o-animation: fadeInUp 300ms linear 300ms both;
   -ms-animation: fadeInUp 300ms linear 300ms both;
   animation: fadeInUp 300ms linear 300ms both;
 }
-#main-slider .active .animation.animated-item-2 {
+#main-slider .active .animation.animated-item-2,
+#slider-servicio .active .animation.animated-item-2 {
   -webkit-animation: fadeInUp 300ms linear 600ms both;
   -moz-animation: fadeInUp 300ms linear 600ms both;
   -o-animation: fadeInUp 300ms linear 600ms both;
   -ms-animation: fadeInUp 300ms linear 600ms both;
   animation: fadeInUp 300ms linear 600ms both;
 }
-#main-slider .active .animation.animated-item-3 {
+#main-slider .active .animation.animated-item-3,
+#slider-servicio .active .animation.animated-item-3 {
   -webkit-animation: fadeInUp 300ms linear 900ms both;
   -moz-animation: fadeInUp 300ms linear 900ms both;
   -o-animation: fadeInUp 300ms linear 900ms both;
   -ms-animation: fadeInUp 300ms linear 900ms both;
   animation: fadeInUp 300ms linear 900ms both;
 }
-#main-slider .active .animation.animated-item-4 {
+#main-slider .active .animation.animated-item-4,
+#slider-servicio .active .animation.animated-item-4 {
   -webkit-animation: fadeInUp 300ms linear 1200ms both;
   -moz-animation: fadeInUp 300ms linear 1200ms both;
   -o-animation: fadeInUp 300ms linear 1200ms both;
