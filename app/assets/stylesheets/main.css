@@ -344,13 +344,13 @@ body > section {
 #main-slider .carousel h2 {
   font-size: 36px;
 }
-#main-slider .carousel .btn {
+#main-slider .carousel .btn, #slider-servicio .carousel .btn {
   border: 3px solid rgba(255, 255, 255, 0.5);
   color: #fff;
   border-radius: 0;
   margin-top: 5px;
 }
-#main-slider .carousel .btn:hover {
+#main-slider .carousel .btn:hover, #slider-servicio .carousel .btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 #main-slider .carousel .boxed {
