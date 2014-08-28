@@ -33,6 +33,10 @@
   width:100%;
   max-height: 347px !important;
 }
+#slider-servicio .carousel-inner{
+  width: 350px;
+  max-height: 262px !important;
+}
 body {
   padding-top: 80px;
   color: #34495e;
